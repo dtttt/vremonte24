@@ -1,0 +1,33 @@
+.select {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  border: 1px solid @special-gray-lighter;
+  vertical-align: top;
+  border-radius: 4px;
+  line-height: @line-height-computed * 1.75;
+  select {
+    padding: 0 14px;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    font-size: @font-size-small;
+    color: @gray-dark;
+  }
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 14px;
+    width: 9px;
+    height: 6px;
+    .main-sprite(-140px -150px);
+  }
+}

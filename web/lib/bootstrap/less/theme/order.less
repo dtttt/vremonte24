@@ -1,0 +1,64 @@
+.row-login-form {
+  .col-left {
+    position: relative;
+    border-right: 2px dotted #e9ecf0;
+    @media (max-width: @screen-md-max) {
+      border-right: none;
+    }
+    &.col-lg-5 {
+      @media (min-width: @screen-lg-min) {
+        //width: 36%;
+        padding-right: 5.66666667%;
+      }
+      @media (max-width: @screen-md-max) {
+        padding-right: (@grid-gutter-width / 2);
+      }
+    }
+    .or-block {
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      margin: -10px 0 0 -12px;
+      padding: 0px 0 2px;
+      background: #fff;
+      font-size: @font-size-small;
+      font-style: italic;
+      color: @special-gray;
+    }
+  }
+  .col-right {
+    @media (max-width: @screen-md-max) {
+      margin: 20px 0 0;
+    }
+    &.col-lg-7 {
+      @media (min-width: @screen-lg-min) {
+        padding-left: 5.33333333%;
+      }
+      @media (max-width: @screen-md-max) {
+        padding-left: (@grid-gutter-width / 2);
+      }
+    }
+
+    .social-title {
+      font-size: @font-size-small;
+    }
+    .social-ways {
+      margin: 12px 0 0 0;
+    }
+    .social-buy {
+      margin: 32px 0 0 0;
+    }
+  }
+}
+.row-buyer-info {
+  .col {
+    &.col-sm-5 {
+      @media (min-width: @screen-xs-min) {
+        padding-right: (@grid-gutter-width / 2);
+      }
+      @media (min-width: @screen-sm-min) {
+        padding-right: 8.33333333%;
+      }
+    }
+  }
+}

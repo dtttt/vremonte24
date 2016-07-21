@@ -1,0 +1,52 @@
+.steps-difficulty-value {
+  display: inline-block;
+  margin-left: 8px;
+  color: #00a7e7;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 16px;
+  vertical-align: middle;
+  &:before {
+    .main-sprite(-369px -126px);
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    vertical-align: top;
+    margin-right: 6px;
+  }
+}
+
+.steps {
+  .item {
+    padding: 30px 0;
+    border-bottom: 1px solid @gray-lighter;
+    &:first-child {
+      padding-top: 0;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+    .img {
+      @media (max-width: @grid-float-breakpoint-max) {
+        margin: 0 0 20px 0;
+      }
+    }
+    .more-photo {
+      margin: 0 0 20px 0;
+      img {
+        display: inline-block;
+        margin: 0 0 3px 0;
+      }
+    }
+    .title {
+      font-size: @font-size-large;
+      font-weight: bold;
+      margin: 0 0 10px 0;
+    }
+    .text {
+      font-weight: 600;
+      font-size: ceil(@font-size-base * 0.90);
+    }
+  }
+}

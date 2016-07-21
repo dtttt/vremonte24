@@ -1,0 +1,96 @@
+.cabinet-menu {
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      a {
+        display: block;
+        margin: 17px 0px;
+        font-size: ceil(@font-size-base * 1.10);
+        .gray {
+          color: @special-gray;
+        }
+      }
+      &.active {
+        a {
+          font-weight: bold;
+          &:after {
+            .main-sprite(-121px -170px);
+            width: 5px;
+            height: 8px;
+            content: "";
+            display: inline-block;
+            margin: 0 0 0 15px;
+          }
+        }
+      }
+      &:first-child {
+        a {
+          margin-top: 0;
+        }
+      }
+      &:last-child {
+        a {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.order-details-more {
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.order-details-table-more {
+  width: 100%;
+  th, td {
+    vertical-align: top;
+  }
+}
+
+.order-details-table {
+  thead {
+    th {
+      padding-top: 15px;
+      padding-bottom: 8px;
+    }
+  }
+  th {
+    color: @special-gray;
+    text-align: left;
+  }
+  td, th {
+    padding-right: 25px;
+    font-weight: 600;
+  }
+}
+
+.order-details-table-order {
+  thead {
+    td, th {
+      padding-top: 0;
+    }
+  }
+  .total {
+    font-weight: 800;
+  }
+  .order-status-green {
+    font-weight: bold;
+    color: #97c124;
+  }
+  .order-status-gray {
+    font-weight: bold;
+    color: @special-gray;
+  }
+  .order-status-red {
+    font-weight: bold;
+    color: #ef233c;
+  }
+}
+
+.order-positions-list {
+  padding: 0 0 0 15px;
+}

@@ -1,0 +1,21 @@
+.grid-news {
+  .row {
+    @media (min-width: @screen-sm-min) {
+      position: relative;
+      //left: 5%;
+    }
+  }
+  .col-news {
+    @media (min-width: @screen-sm-min) {
+      &.col-sm-4 {
+        width: 30%;
+        padding: 0 12px;
+      }
+      &.col-sm-8 {
+        width: 60%;
+        padding: 0 12px;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,98 @@
+.advantages {
+  margin: 45px 0 45px 0;
+  padding: 55px 0;
+  background-color: @special-gray-lighter;
+  .title {
+    position: relative;
+    margin: 0 0 42px;
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -25px;
+      width: 68px;
+      height: 4px;
+      background: @gray-dark;
+      opacity: .2;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      top: -8px;
+      width: 40px;
+      height: 40px;
+      margin: 0 0 0 22px;
+    }
+    &.icon-1:after {
+      .main-sprite(0 -340px);
+    }
+    &.icon-2:after {
+      .main-sprite(-50px -340px);
+    }
+    &.icon-3:after {
+      .main-sprite(-100px -340px);
+    }
+    &.icon-4:after {
+      .main-sprite(-150px -340px);
+    }
+  }
+}
+
+
+
+.news-block {
+  .item {
+    margin: 0 0 30px 0;
+    .title {
+      font-size: @font-size-large;
+      display: block;
+      margin: 0 0 10px 0;
+    }
+    .text {
+
+    }
+  }
+}
+
+.feedback-block {
+  .item {
+    margin: 0 0 30px 0;
+    .img {
+      text-align: center;
+    }
+    .title {
+      font-weight: bold;
+      font-size: ceil(@font-size-base * 0.90);
+      margin: 0 0 10px 0;
+    }
+    .text {
+      font-size: ceil(@font-size-base * 0.90);
+    }
+    .stats {
+      padding: 10px 0 0 0;
+    }
+  }
+}
+
+.popular-models {
+  .item {
+    margin: 0 0 20px 0;
+    .img {
+      img {
+        border-bottom: 3px solid @brand-primary;
+        @media (max-width: @grid-float-breakpoint-max) {
+          width: 100%;
+        }
+      }
+    }
+    .title {
+      margin: 10px 0 0 0;
+      display: block;
+    }
+    .stats {
+      margin: 10px 0 0 0;
+    }
+  }
+}

@@ -1,0 +1,171 @@
+.vsego-value {
+  font-size: ceil(@font-size-base * 2.285);
+  font-weight: 300;
+  text-align: center;
+  color: @gray-dark;
+  margin: 40px 0 14px 0;
+}
+.vsego-title {
+  text-transform: uppercase;
+  font-size: ceil(@font-size-base * 0.9);
+  text-align: center;
+  margin: 0 0 45px 0;
+}
+
+.bottom-menu {
+  a {
+    display: block;
+    margin: 7px 0;
+  }
+}
+
+.footer-padding {
+  padding-bottom: 45px;
+}
+
+.obratnaya-svyaz {
+  @media (max-width: @screen-md-max) {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+}
+
+.mi-v-socsetyah {
+  margin: 25px 0 10px 0;
+  @media (max-width: @grid-float-breakpoint-max) {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.mi-v-socsetyah-title {
+  font-weight: bold;
+}
+.mi-v-socsetyah-knopki {
+  margin: 13px 0 0 0;
+  .knopka {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 25px;
+    }
+    @media (max-width: @grid-float-breakpoint-max) {
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid #d9dee1;;
+      margin: 0 10px 10px 0;
+      padding: 12px 0 0 0;
+      border-radius: 2px;
+    }
+  }
+  .feisbuk {
+    &:before {
+      width: 12px;
+      .main-sprite(0 -250px);
+    }
+  }
+  .vkont {
+    &:before {
+      width: 32px;
+      .main-sprite(-25px -250px);
+    }
+  }
+  .tviter {
+    &:before {
+      width: 26px;
+      .main-sprite(-71px -250px);
+    }
+  }
+  .utub {
+    &:before {
+      width: 21px;
+      .main-sprite(-107px -250px);
+    }
+  }
+}
+
+.sposobi-oplati-title {
+  font-weight: bold;
+}
+.sposobi-oplati-knopki {
+  .knopka {
+    margin: 0 7px 0 0;
+    &:before {
+      content: "";
+      display: inline-block;
+      height: 40px;
+    }
+  }
+  .viza {
+    &:before {
+      width: 67px;
+      .main-sprite(0 -290px);
+    }
+  }
+  .mastercard {
+    &:before {
+      width: 45px;
+      .main-sprite(-75px -290px);
+    }
+  }
+  .qiwivalet {
+    &:before {
+      width: 69px;
+      .main-sprite(-128px -290px);
+    }
+  }
+  .yandeksdengi {
+    &:before {
+      width: 67px;
+      .main-sprite(-205px -290px);
+    }
+  }
+  .vebmani {
+    &:before {
+      width: 68px;
+      .main-sprite(-281px -290px);
+    }
+  }
+  .alfabank {
+    &:before {
+      width: 66px;
+      .main-sprite(-356px -290px);
+    }
+  }
+}
+
+.razrabotka-saita {
+  @media (max-width: @grid-float-breakpoint-max) {
+    text-align: center;
+  }
+}
+
+#footer {
+  .input-site-search-container {
+    input {
+      padding-left: 40px;
+      padding-right: 100px;
+      height: 39px;
+    }
+    position: relative;
+    &:before {
+      .main-sprite(-199px -38px);
+      display: block;
+      position: absolute;
+      left: 11px;
+      top: 11px;
+      content: "";
+      width: 18px;
+      height: 17px;
+      z-index: @zindex-other;
+    }
+  }
+  .input-site-search-category {
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    z-index: @zindex-other;
+  }
+}

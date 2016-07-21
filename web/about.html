@@ -1,0 +1,560 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>VREMONTE24</title>
+    <meta name="description" content="Ремонт цифровой техники">
+    <meta name="author" content="crtweb.ru">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/lib/owl-carousel/owl.carousel.css">
+
+    <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="visible-xs xs-top">
+        <div class="container-fluid">
+            <div class="row ">
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-menu-btn">
+                    <div class="xs-top-icon xs-menu-icon"></div>
+                </a>
+                <div class="col-xs-4 xs-col xs-logo-notbtn">
+                    <div class="xs-top-icon xs-site-logo"></div>
+                </div>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-search-btn">
+                    <div class="xs-top-icon xs-search-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-login-btn">
+                    <div class="xs-top-icon xs-login-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-cart-btn">
+                    <div class="xs-top-icon xs-cart-icon"></div>
+                    <div class="xs-cart-count">3</div>
+                </a>
+            </div>
+        </div>
+        <div class="xs-menu-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="first-menu">
+                            <li><a href="/models.html">Запчасти</a></li>
+                            <li><a href="/catalog.html">Аксессуары</a></li>
+                            <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                            <li><a href="/blog.html">Блог</a></li>
+                            <li><a href="/qa.html">Вопросы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <ul class="second-menu-left second-menu">
+                            <li><a href="/about.html">О нас</a></li>
+                            <li><a href="/for_client.html">Клиенту</a></li>
+                            <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                            <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="second-menu-right second-menu">
+                            <li><a href="/specials.html">Скидки</a></li>
+                            <li><a href="/news.html">Новости</a></li>
+                            <li><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 20px 0 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6" style="padding: 0; margin-right: -4px;">
+                        <nav class="navbar navbar-default third-menu-left third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2 navbar-default-link-karta">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-6" style="padding: 0;">
+                        <nav class="navbar navbar-default third-menu-right third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 0">
+        </div>
+        <div class="xs-search-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" placeholder="Поиск по сайту">
+                                <span class="input-group-btn">
+                                    <input type="submit" class="btn btn-sm btn-primary" value="Найти">
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xs-cart-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="cart-title">В корзине <span class="text-red">3</span> товара</div>
+                        <table class="cart-positions">
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="itog">
+                            Итог: <span class="text-primary">2525 руб.</span>
+                        </div>
+                        <div class="oformit">
+                            <a href="/cart.html" class="btn btn-primary btn-block">
+                                Оформить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="dropdown navbar-link-style-1 navbar-default-link-karta">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown navbar-link-style-1">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/for_client.html">Клиенту</a></li>
+                <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                <li><a href="/specials.html">Скидки</a></li>
+                <li><a href="/news.html">Новости</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-link-style-1 navbar-default-link-vhod"><a href="javascript:void(0)">Вход</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container hidden-xs">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <div class="site-logo">
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <div style="margin: 5px 0 0  0;">
+                    <form method="POST">
+                        <div class="input-group">
+                            <div class="input-site-search-container">
+                                <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                <div class="dropdown input-site-search-category small">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                        <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <span class="input-group-btn">
+                                    <input type="submit" class="btn btn-primary" value="Найти">
+                                </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right telephone">
+                    <span class="text-nowrap country-city">+7 3452</span>
+                    <span class="text-nowrap local">12-34-56</span>
+                </div>
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="perezvonite-mne dotted-gray">
+                        Перезвоните мне
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="mini-korzina dotted-gray">
+                        Корзина
+                    </a>
+                </div>
+                <div class="text-right mini-korzina-value">
+                    В корзине <span class="text-red" style="font-weight: bold;">3</span> товара
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-menu hidden-xs">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="top-menu-links">
+                        <li><a href="/models.html">Запчасти</a></li>
+                        <li><a href="/catalog.html">Аксессуары</a></li>
+                        <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                        <li><a href="/blog.html">Блог</a></li>
+                        <li><a href="/qa.html">Вопросы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="javascript:void(0)">О нас</a></li>
+                </ul>
+                <article>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3>О нас</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-9">
+                                    <p class="text-halfbold">В магазине Vremonte24.ru вашему вниманию представлен широкий ассортимент радиодеталей, запчастей и аксессуаров для вашей электроники. Все радиодетали и запчасти соответсвуют самым современным требованиям по качеству и электробезопасности по ГОСТ РМЭК 61184-99. Аксессуары для техники подчеркнут вашу индивидуальность и усилят защиту ващего гаджета.</p>
+                                </div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <p class="text-primary text-center" style="font-size:180%">
+                                        Приятных покупок,<br>
+                                       дорогие друзья!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <hr style="margin: 48px 0 46px;">
+                            <h3>Сотрудники</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                            <div class="text-gray-light">Директор, Консультант</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                            <div class="text-gray-light">Директор, Консультант</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                            <div class="text-gray-light">Директор, Консультант</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                            <div class="text-gray-light">Директор, Консультант</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                        </div>
+                                        <div class="col-xs-9">
+                                            <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                            <div class="text-gray-light">Директор, Консультант</div>
+                                        </div>
+                                    </div>
+                                </div><div class="col-xs-12 col-sm-6 col-md-4" style="margin: 10px 0;">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="http://dummyimage.com/68x68.jpg" class="img-circle">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <div style="margin: 10px 0 0; font-weight: bold;">Демид Золотухин</div>
+                                        <div class="text-gray-light">Директор, Консультант</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <hr style="margin: 40px 0 42px;">
+                            <h3>Наши мастерская и торговый зал</h3>
+                            <div class="about-photogallery-one-row about-photogallery-slider">
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                                <a href="http://dummyimage.com/800x600.jpg" class="item" data-fancybox-group="about-photogallery"><img src="http://dummyimage.com/160x102.jpg"></a>
+                            </div>
+                            <hr style="margin: 55px 0 25px;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3>Представленные марки</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                        <div class="col-xs-4 col-sm-3 col-md-2"><img src="http://dummyimage.com/94x52.jpg" vspace="10"></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">468</div>
+                    <div class="vsego-title">инструкций</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">34&nbsp;590</div>
+                    <div class="vsego-title">запчастей</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">1&nbsp;438</div>
+                    <div class="vsego-title">ответов</div>
+                </div>
+            </div>
+        </div>
+        <hr class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="bottom-menu row hidden-xs">
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">О нас</a>
+                            <a href="javascript:void(0)">Клиенту</a>
+                            <a href="javascript:void(0)">Скидки</a>
+                            <a href="javascript:void(0)">Новости</a>
+                            <a href="javascript:void(0)">Блог</a>
+                            <a href="javascript:void(0)">Контакты</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">Запчасти</a>
+                            <a href="javascript:void(0)">Аксессуары</a>
+                            <a href="javascript:void(0)">Инструкции по ремонту</a>
+                            <a href="javascript:void(0)">Вопросы</a>
+                            <a href="javascript:void(0)">Доставка и оплата</a>
+                            <a href="javascript:void(0)">Гарантия и возврат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <button class="btn btn-block btn-transparent">Обратная связь</button>
+                    <div class="mi-v-socsetyah">
+                        <div class="mi-v-socsetyah-title">
+                            Мы в соцсетях
+                        </div>
+                        <div class="mi-v-socsetyah-knopki">
+                            <a href="javascript:void(0)" class="knopka feisbuk"></a>
+                            <a href="javascript:void(0)" class="knopka vkont"></a>
+                            <a href="javascript:void(0)" class="knopka tviter"></a>
+                            <a href="javascript:void(0)" class="knopka utub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <div style="margin: 0 0 27px 0;" class="hidden-xs">
+                        <form method="POST">
+                            <div class="input-group">
+                                <div class="input-site-search-container">
+                                    <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                    <div class="dropdown input-site-search-category small">
+                                        <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                            <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-info" value="Найти">
+                            </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sposobi-oplati hidden-xs">
+                        <div class="sposobi-oplati-title">
+                            Способы оплаты
+                        </div>
+                        <div class="sposobi-oplati-knopki">
+                            <a href="javascript:void(0)" class="knopka viza"></a>
+                            <a href="javascript:void(0)" class="knopka mastercard"></a>
+                            <a href="javascript:void(0)" class="knopka qiwivalet"></a>
+                            <a href="javascript:void(0)" class="knopka yandeksdengi"></a>
+                            <a href="javascript:void(0)" class="knopka vebmani"></a>
+                            <a href="javascript:void(0)" class="knopka alfabank"></a>
+                        </div>
+                    </div>
+                    <div class="razrabotka-saita">
+                        Разработка сайта &mdash; <strong>агентство Creative</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-padding"></div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"О нас", 
+		"/about/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Клиенту", 
+		"/for_client/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Скидки", 
+		"/specials/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Запчасти", 
+		"/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аксессуары", 
+		"/models/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инструкции по ремонту", 
+		"/text-page/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вопросы", 
+		"/qa/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка и оплата", 
+		"/payment_delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантия и возврат", 
+		"/warranty/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

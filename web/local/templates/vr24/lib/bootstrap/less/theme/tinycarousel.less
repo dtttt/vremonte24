@@ -1,0 +1,51 @@
+.tinycarousel-vertical {
+  overflow: hidden;
+  padding: 0 0 10px;
+  .viewport {
+    height: 406px;
+    overflow: hidden;
+    position: relative;
+  }
+  .buttons {
+    display: block;
+    width: 38px;
+    height: 38px;
+    margin: 0 auto;
+    .main-sprite(-78px -186px);
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 19px;
+    border: 1px solid @special-gray-lighter;
+    &:hover,
+    &:focus {
+      background-color: rgba(0,0,0,0.1);
+    }
+  }
+  .next {
+    .main-sprite(-48px -184px);
+    margin-top: 20px;
+  }
+  .prev {
+    margin-bottom: 20px;
+  }
+  .disable {
+    visibility: hidden;
+  }
+  .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 122px;
+    left: 0;
+    top: 0;
+    li {
+      border: 1px solid @special-gray-lighter;
+      &.active {
+        border: 1px solid @brand-primary;
+      }
+      margin: 0 0 20px 0;
+      height: 120px;
+      width: 120px;
+    }
+  }
+}

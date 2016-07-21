@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Запчасти", 
+		"/catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Аксессуары", 
+		"/models/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Инструкции по ремонту", 
+		"/text-page/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Вопросы", 
+		"/qa/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

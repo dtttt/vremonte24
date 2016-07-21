@@ -1,0 +1,1 @@
+<?include dirname(dirname(dirname(__FILE__))).'/ru/install/'.basename(__FILE__);

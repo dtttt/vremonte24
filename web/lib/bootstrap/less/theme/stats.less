@@ -1,0 +1,106 @@
+.stats {
+  font-weight: normal;
+  .text {
+    color: @gray-light;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: @font-size-small;
+    margin: 0 7px 0 0;
+    span {
+      color: @text-color;
+      font-weight: normal;
+    }
+  }
+  .views {
+    color: @gray-light;
+    display: inline-block;
+    margin: 0 7px 0 0;
+    &:before {
+      .main-sprite(0 -150px);
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 12px;
+      margin: 0 7px 0 0;
+    }
+    font-size: @font-size-small;
+  }
+  .views-2 {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    &:before {
+      .main-sprite(-350px -200px);
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 12px;
+      margin: 0 7px 0 0;
+    }
+    font-size: @font-size-small;
+  }
+  .comments {
+    color: @gray-light;
+    display: inline-block;
+    margin: 0 7px 0 0;
+    &:before {
+      .main-sprite(-55px -148px);
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 16px;
+      height: 18px;
+      margin: 0 7px 0 0;
+    }
+    font-size: @font-size-small;
+  }
+  .vote-points {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    vertical-align: middle;
+    .prefix {
+      font-size: @font-size-small;
+      color: @gray-light;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .stars {
+      display: inline-block;
+      vertical-align: middle;
+      div {
+        .main-sprite(-200px -130px);
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+      }
+      .active {
+        .main-sprite(-200px -100px);
+      }
+    }
+    .suffix {
+      font-size: @font-size-small;
+      color: @brand-primary;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 0 0 5px;
+    }
+  }
+  .manuals {
+    display: inline-block;
+    margin: 0 7px 0 0;
+    vertical-align: middle;
+    font-size: @font-size-small;
+    color: @gray-light;
+    &:before {
+      .main-sprite(-30px -150px);
+      content: "";
+      display: inline-block;
+      vertical-align: middle;
+      width: 14px;
+      height: 18px;
+      margin: 0 7px 0 0;
+    }
+  }
+}

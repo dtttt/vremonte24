@@ -1,0 +1,568 @@
+2016-07-14 07:14:12 -  - exec CUpdateClient::GetUpdatesList
+2016-07-14 07:14:12 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.0&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:12 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:12 -  - TIME GetUpdatesList(request) 0.562 sec
+2016-07-14 07:14:12 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:27 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:27 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:27 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.11&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.11&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.0&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:27 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:28 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2016-07-14 07:14:28 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:28 - S - STEP
+2016-07-14 07:14:28 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:28 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:28 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:28 -  - loadFile
+2016-07-14 07:14:29 - U - RETURN
+2016-07-14 07:14:29 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:29 -  - TIME UnGzipArchive 0.303 sec
+2016-07-14 07:14:29 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php'
+2016-07-14 07:14:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': CopyFiles(install/components, components)
+2016-07-14 07:14:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': CopyFiles(install/css, css)
+2016-07-14 07:14:29 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': CopyFiles(install/js, js)
+2016-07-14 07:14:30 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': CopyFiles(install/panel, panel)
+2016-07-14 07:14:30 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': CopyFiles(install/gadgets, gadgets)
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(DELETE FROM b_user_counter WHERE CODE LIKE '**L%' AND TIMESTAMP_X = '3000-01-01 00:00:00', )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_user_counter MODIFY SENT char(1) null default '0', )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(UPDATE b_user_counter SET SENT = '0' WHERE SENT IS NULL, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_user_field_confirm MODIFY DATE_CHANGE timestamp, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_module MODIFY DATE_ACTIVE timestamp, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_module_to_module MODIFY TIMESTAMP_X timestamp, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_file MODIFY TIMESTAMP_X timestamp, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_event_log MODIFY TIMESTAMP_X timestamp, )
+2016-07-14 07:14:30 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469669/main/updater16.0.12.php': Query(ALTER TABLE b_user_hit_auth MODIFY TIMESTAMP_X timestamp, )
+2016-07-14 07:14:30 -  - TIME UpdateStepModules 0.805 sec
+2016-07-14 07:14:30 - UPD_SUCCESS - Updated: main (16.0.12)<br><li>Исправлена проблема с показом загруженных картинок с расширением .svg. <li>Оптимизирован показ свойства \"Привязка к разделам с автозаполнением\". <li>В инсталлятор добавлена проверка настроек PHP date.timezone и JSON. <li>Исправлен ряд интерфейсных ошибок. <li>Улучшена совместимость с PHP 7. <li>Улучшена совместимость с Mysql 5.7. <li>Разработчикам: композит: для страниц, в которых отключен аяксовый хит (setAutoUpdate(false)), добавилась возможность указать время жизни кеша (setAutoUpdateTTL). 
+2016-07-14 07:14:30 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:30 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:30 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.12&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.12&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.0&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:30 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:31 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2016-07-14 07:14:31 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:31 - S - STEP
+2016-07-14 07:14:31 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:31 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:31 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:31 -  - loadFile
+2016-07-14 07:14:31 - U - RETURN
+2016-07-14 07:14:31 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:31 -  - TIME UnGzipArchive 0.07 sec
+2016-07-14 07:14:32 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469671/main/updater16.0.13.php'
+2016-07-14 07:14:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469671/main/updater16.0.13.php': CopyFiles(install/components, components)
+2016-07-14 07:14:32 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469671/main/updater16.0.13.php': CopyFiles(install/js, js)
+2016-07-14 07:14:32 -  - TIME UpdateStepModules 0.132 sec
+2016-07-14 07:14:32 - UPD_SUCCESS - Updated: main (16.0.13)<br><li>Исправлен ряд интерфейсных ошибок.
+2016-07-14 07:14:32 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:32 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:32 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.0&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:32 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:32 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2016-07-14 07:14:32 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:32 - S - STEP
+2016-07-14 07:14:32 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:32 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:32 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:32 -  - loadFile
+2016-07-14 07:14:33 - U - RETURN
+2016-07-14 07:14:33 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:33 -  - TIME UnGzipArchive 0.024 sec
+2016-07-14 07:14:33 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469673/fileman/updater16.5.1.php'
+2016-07-14 07:14:33 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469673/fileman/updater16.5.1.php': CopyFiles(install/js, js)
+2016-07-14 07:14:33 -  - TIME UpdateStepModules 0.027 sec
+2016-07-14 07:14:33 - UPD_SUCCESS - Updated: fileman (16.5.1)<br><li>Исправлена ошибка некорректного цитирования ссылок и упоминаний сотрудников в визуальном редакторе. <li>Исправлена ошибка отображения редатора на некотором содержимом. <li>Исправлен ряд интерфейсных ошибок. 
+2016-07-14 07:14:33 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:33 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:33 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.1&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:33 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:33 -  - TIME LoadModulesUpdates(request) 0.299 sec
+2016-07-14 07:14:33 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:34 - S - STEP
+2016-07-14 07:14:34 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:34 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:34 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:34 -  - loadFile
+2016-07-14 07:14:34 - U - RETURN
+2016-07-14 07:14:34 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:34 -  - TIME UnGzipArchive 0.034 sec
+2016-07-14 07:14:34 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469674/fileman/updater16.5.2.php'
+2016-07-14 07:14:34 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469674/fileman/updater16.5.2.php': CopyFiles(install/js, js)
+2016-07-14 07:14:34 -  - TIME UpdateStepModules 0.036 sec
+2016-07-14 07:14:34 - UPD_SUCCESS - Updated: fileman (16.5.2)<br><li>Доработки модуля для корректной работы с Автокомпозитным режимом. 
+2016-07-14 07:14:35 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:35 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.0&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:35 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:35 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2016-07-14 07:14:35 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:35 - S - STEP
+2016-07-14 07:14:35 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:35 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:35 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:35 -  - loadFile
+2016-07-14 07:14:36 - U - RETURN
+2016-07-14 07:14:36 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:36 -  - TIME UnGzipArchive 0.048 sec
+2016-07-14 07:14:36 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469676/forum/updater16.5.1.php'
+2016-07-14 07:14:36 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469676/forum/updater16.5.1.php': CopyFiles(install/components, components)
+2016-07-14 07:14:36 -  - TIME UpdateStepModules 0.332 sec
+2016-07-14 07:14:36 - UPD_SUCCESS - Updated: forum (16.5.1)<br><li>Исправлена ошибка, при которой при отправке сообщения в форуме появлялась пустая страница. <li>Исправлена некорректная ссылка на профиль пользователя из списка проголосовавших за сообщение. <li>Незначительные изменения. 
+2016-07-14 07:14:36 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:36 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:36 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.12&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:36 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:37 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2016-07-14 07:14:37 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:37 - S - STEP
+2016-07-14 07:14:37 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:37 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:37 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:37 -  - loadFile
+2016-07-14 07:14:37 - U - RETURN
+2016-07-14 07:14:37 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:37 -  - TIME UnGzipArchive 0.008 sec
+2016-07-14 07:14:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469677/catalog/updater16.0.13/index.php'
+2016-07-14 07:14:37 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1468469677/catalog/updater16.0.13/index.php': Query(update b_catalog_discount CD set CD.LAST_DISCOUNT = 'N', CD.TIMESTAMP_X = CD.TIMESTAMP_X where CD.TYPE = 1, )
+2016-07-14 07:14:37 -  - TIME UpdateStepModules 0.054 sec
+2016-07-14 07:14:37 - UPD_SUCCESS - Updated: catalog (16.0.13)<br><li>Исправлена ошибка сохранения информации о применении накопительной скидки в заказе.
+2016-07-14 07:14:37 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:37 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.13&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:37 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:38 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2016-07-14 07:14:38 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:38 - S - STEP
+2016-07-14 07:14:38 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:38 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:38 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:38 -  - loadFile
+2016-07-14 07:14:38 - U - RETURN
+2016-07-14 07:14:38 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:38 -  - TIME UnGzipArchive 0.047 sec
+2016-07-14 07:14:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469678/catalog/updater16.0.14/index.php'
+2016-07-14 07:14:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469678/catalog/updater16.0.14/index.php': CopyFiles(install/components, components)
+2016-07-14 07:14:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469678/catalog/updater16.0.14/index.php': CopyFiles(install/js, js)
+2016-07-14 07:14:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469678/catalog/updater16.0.14/index.php': CopyFiles(install/tools, tools)
+2016-07-14 07:14:38 -  - TIME UpdateStepModules 0.089 sec
+2016-07-14 07:14:38 - UPD_SUCCESS - Updated: catalog (16.0.14)<br><li>Добавлены методы для группового изменения цен в списке товаров. <li>Исправлена ошибка, не позволявшая отгрузить товар без штрихкодов, находящийся только на одном складе. <li>Исправлена ошибка компонента catalog.viewed.products и унаследованных от него компонентов - при попытке определить текущего пользователя из агента компонент аварийно завершал работу.
+2016-07-14 07:14:39 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:39 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.14&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.4&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:39 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:39 -  - TIME LoadModulesUpdates(request) 0.253 sec
+2016-07-14 07:14:39 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:39 - S - STEP
+2016-07-14 07:14:39 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:39 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:39 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:39 -  - loadFile
+2016-07-14 07:14:40 - U - RETURN
+2016-07-14 07:14:40 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:40 -  - TIME UnGzipArchive 0.056 sec
+2016-07-14 07:14:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469680/iblock/updater16.0.5/index.php'
+2016-07-14 07:14:40 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469680/iblock/updater16.0.5/index.php': CopyFiles(install/components, components)
+2016-07-14 07:14:40 -  - TIME UpdateStepModules 0.174 sec
+2016-07-14 07:14:40 - UPD_SUCCESS - Updated: iblock (16.0.5)<br><li>В списке товаров добавлена возможность группового изменения цен. <li>Исправлена ошибка компонента catalog.smart.filter - компонент не позволял фильтровать по значению \'0\'. <li>Исправлены ошибки шаблона компонента catalog.element. <li>Исправлены незначительные ошибки административных страниц.
+2016-07-14 07:14:40 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:40 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.14&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.5&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:40 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:40 -  - TIME LoadModulesUpdates(request) 0.255 sec
+2016-07-14 07:14:40 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:41 - S - STEP
+2016-07-14 07:14:41 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:41 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:41 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:41 -  - loadFile
+2016-07-14 07:14:41 - U - RETURN
+2016-07-14 07:14:41 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:41 -  - TIME UnGzipArchive 0.058 sec
+2016-07-14 07:14:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469681/iblock/updater16.0.6/index.php'
+2016-07-14 07:14:41 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469681/iblock/updater16.0.6/index.php': CopyFiles(install/components, components)
+2016-07-14 07:14:42 -  - TIME UpdateStepModules 0.118 sec
+2016-07-14 07:14:42 - UPD_SUCCESS - Updated: iblock (16.0.6)<br><li>Улучшена производительность административных страниц со списком элементов инфоблока. <li>Исправлена ошибка создания фасетного индекса. <li>Разработчикам: возможность настройки параметра INSTANT_RELOAD компонента catalog.smart.filter оставлена только в рамках шаблона комплексного компонента catalog. <li>Разработчикам: исправлена сортировка в методе CIBlockElement::GetList при использовании ключа nElementID в параметрах метода. <li>Разработчикам: исправлена ошибка запуска на агенте методов класса CIBlockPriceTools.
+2016-07-14 07:14:42 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:42 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.14&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:42 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:42 -  - TIME LoadModulesUpdates(request) 0.267 sec
+2016-07-14 07:14:42 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:42 - S - STEP
+2016-07-14 07:14:42 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:42 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:42 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:42 -  - loadFile
+2016-07-14 07:14:43 - U - RETURN
+2016-07-14 07:14:43 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:43 -  - TIME UnGzipArchive 0.056 sec
+2016-07-14 07:14:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469683/catalog/updater16.0.15/index.php'
+2016-07-14 07:14:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469683/catalog/updater16.0.15/index.php': CopyFiles(install/components, components)
+2016-07-14 07:14:43 -  - TIME UpdateStepModules 0.066 sec
+2016-07-14 07:14:43 - UPD_SUCCESS - Updated: catalog (16.0.15)<br><li>Оптимизирован процесс отбора товаров в компоненте catalog.bigdata.products. <li>Упрощение интеграции своего шаблона в компонент catalog.bigdata.products. <li>При установленной настройке \"Показывать вкладку Торговый каталог для товаров, имеющих торговые предложения\" разрешено добавление в корзину товаров с торговыми предложениями. <li>Исправлена ошибка определения типа товара при установленной настройке \"Показывать вкладку Торговый каталог для товаров, имеющих торговые предложения\". <li>ВНИМАНИЕ! Настройка \"Показывать вкладку Торговый каталог для товаров, имеющих торговые предложения\" в дальнейшем будет поддерживаться только в режиме совместимости.
+2016-07-14 07:14:43 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:43 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.21&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:43 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:43 -  - TIME LoadModulesUpdates(request) 0.272 sec
+2016-07-14 07:14:43 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:43 - S - STEP
+2016-07-14 07:14:43 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:44 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:44 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:44 -  - loadFile
+2016-07-14 07:14:45 - U - RETURN
+2016-07-14 07:14:45 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:46 -  - TIME UnGzipArchive 0.698 sec
+2016-07-14 07:14:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469685/sale/updater16.0.22.php'
+2016-07-14 07:14:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469685/sale/updater16.0.22.php': CopyFiles(install/components, components)
+2016-07-14 07:14:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469685/sale/updater16.0.22.php': CopyFiles(install/js, js)
+2016-07-14 07:14:47 -  - TIME UpdateStepModules 0.691 sec
+2016-07-14 07:14:47 - UPD_SUCCESS - Updated: sale (16.0.22)<br><li>Добавлен возврат через Ассист. <li>Добавлено обновление свойств корзины заказа при обмене с 1С. <li>Добавлена поддержка префиксов и нумераторов заказа при обмене с 1С. <li>Возвращена возможность подключать свои формы просмотра заказа. <li>В форму редактирования, просмотра заказа возвращена информация по аффилиату. <li>Исправлены ошибки работы с заказом. <li>Исправлены ошибки работы с комплектами. <li>Исправлены ошибки редактирования статусов. <li>Исправлены ошибки свойств заказа. <li>Исправлена проблема обратной совместимости с дублированием позиций при оформлении заказа. <li>Исправлены ошибки настройки колонок в редактировании заказа. <li>Исправлена ошибка формата даты в мобильном приложении администратора для языков отличных от русского. <li>Исправлена ошибка создания заказа. <li>Исправлена ошибка удаления логотипа доставки. <li>Исправлена ошибка редактирования заказа. <li>Исправлена ошибка отображения в заказе товаров отмеченных неактивными. <li>Исправлена ошибка создания заказа из брошенной корзины. <li>Подправлена логика ограничения доставки по местоположению. Если местоположение в заказе еще не задано, доставки не отображаются. <li>Исправлены ошибки в работе платежных систем. <li>Исправления в выгрузке для встроенного модуля обмена УТ 11. <li>Исправления в обмене с 1С для обновления статусов заказа. <li>Исправлена выгрузка свойства заказа типа список. <li>Исправления для формы редактирования профиля обмена с 1с. <li>Исправления при генерации пользователя на сайте выгрузкой из 1С. <li>Доработка административных форм. <li>Другие незначительные исправления форм редактирования и просмотра заказов. <li>Оптимизация списка заказов.
+2016-07-14 07:14:47 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:47 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.22&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:47 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:47 -  - TIME LoadModulesUpdates(request) 0.283 sec
+2016-07-14 07:14:47 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:47 - S - STEP
+2016-07-14 07:14:47 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:47 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:47 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:47 -  - loadFile
+2016-07-14 07:14:48 - U - RETURN
+2016-07-14 07:14:48 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:48 -  - TIME UnGzipArchive 0.007 sec
+2016-07-14 07:14:48 -  - TIME UpdateStepModules 0.01 sec
+2016-07-14 07:14:48 - UPD_SUCCESS - Updated: sale (16.0.23)<br><li>Исправлена ошибка очистки корзины. 
+2016-07-14 07:14:48 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:48 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.23&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:48 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:48 -  - TIME LoadModulesUpdates(request) 0.276 sec
+2016-07-14 07:14:48 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:48 - S - STEP
+2016-07-14 07:14:48 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:48 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:48 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:48 -  - loadFile
+2016-07-14 07:14:49 - U - RETURN
+2016-07-14 07:14:49 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:49 -  - TIME UnGzipArchive 0.011 sec
+2016-07-14 07:14:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469689/sale/updater16.0.24.php'
+2016-07-14 07:14:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469689/sale/updater16.0.24.php': CopyFiles(install/components, components)
+2016-07-14 07:14:49 -  - TIME UpdateStepModules 0.021 sec
+2016-07-14 07:14:49 - UPD_SUCCESS - Updated: sale (16.0.24)<br><li>Исправлена ошибка с расчетом заказа для неавторизовынных пользователей.
+2016-07-14 07:14:49 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:49 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.24&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:49 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:49 -  - TIME LoadModulesUpdates(request) 0.279 sec
+2016-07-14 07:14:49 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:49 - S - STEP
+2016-07-14 07:14:49 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:49 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:49 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:49 -  - loadFile
+2016-07-14 07:14:52 - U - RETURN
+2016-07-14 07:14:52 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:54 -  - TIME UnGzipArchive 2.049 sec
+2016-07-14 07:14:54 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469692/sale/updater16.0.25.php'
+2016-07-14 07:14:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469692/sale/updater16.0.25.php': CopyFiles(install/components, components)
+2016-07-14 07:14:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469692/sale/updater16.0.25.php': CopyFiles(install/js, js)
+2016-07-14 07:14:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469692/sale/updater16.0.25.php': CopyFiles(install/images, images/sale)
+2016-07-14 07:14:54 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469692/sale/updater16.0.25.php': CopyFiles(install/themes, themes)
+2016-07-14 07:14:55 -  - TIME UpdateStepModules 0.888 sec
+2016-07-14 07:14:55 - UPD_SUCCESS - Updated: sale (16.0.25)<br><li>Добавлена выгрузка даты создания оплата для документов оплаты. <li>Для для модуля обмена базовой версии добавлена передача значения телефона контрагента. <li>Для модуля обмена базовой версии добавлена передача ОКПО. <li>Доработка механизма real-time обмена. <li>Исправлена ошибка продления подписок. <li>Исправлена ошибка смены статуса оплаты и доставки, если товара уже нет. <li>Исправлена ошибка в фильтре списка заказов. Не отображались доставки и статусы заказа для менеджера. <li>Исправлена ошибка дублированния почтового события при отмене заказа. <li>Исправления обратной совместимости при оформлении заказа. <li>Исправлена ошибка сохранения свойства заказа типа файл в профиль пользователя. <li>Исправлена выгрузка документов отгрузки в суммой услуги 0. <li>Исправления ошибок в интерфейсе настройки обмена. <li>Исправления вывода ошибок в обмене. <li>Исправления для регистрации пользователя при импорте контрагентов. <li>Исправлена ошибка, возникавшая при создании нового раздела в каталоге. <li>Исправлена ошибка, возникавшая при отслеживании статусов отправлений через службу доставки СПСР. <li>Исправлен ряд Javascript-ошибок, возникавших при просмотре и редактировании заказа. <li>Исправлена ошибка, возникавшая при импорте местоположений при недостаточной производительности. <li>Исправлена ошибка, возникавшая при попытке создания заказа без указания электронной почты покупателя, если это поле не обязательно для заполнения. <li>Обновлены логотипы некоторых служб доставок. <li>Исправлена ошибка конвертации служб доставок. <li>В событии onSaleDeliveryServiceCalculate добавлен параметр DELIVERY_ID. <li>В списке служб доставок изменен порядок колонок по умолчанию. <li>Исправлены ошибки редактирования и удаления служб доставок, в случае отсутствия обработчика службы. <li>Исправлена ошибка в обработчике службы доставки ПЭК, из-за которой не выводился город в настройках. <li>Исправлена ошибка формы редактирования заказа, при которой менеджеру не показывался или не менялся текущий статус заказа. <li>При редактировании комментария менеджера в просмотре заказа обновляем и дату редактирования заказа. <li>Исправлена ошибка, при которой не отображались поля типа RADIO и MULTISELECT на странице настройки служб доставок Новая почта [ua_post]. <li>Исправлена ошибка, при которой не работал выбор местоположения в ограничениях доставки. <li>Исправлена ошибка, при которой выводилась кнопка удаления заказа менеджеру, не имеющему права на удаление. <li>Исправлена ошибка обработчика службы доставки EMS, из-за которой в стоимости доставки не учитывалась объявленная стоимость отправления. <li>Исправлена ошибка, при которой не отображались активные службы доставки при копирование заказа. <li>Оптимизация скорости работы магазина. <li>Прекращение поддержки компонентов sale.basket.basket.small, sale.order.full, sale.basket.order.ajax.
+2016-07-14 07:14:55 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:55 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.25&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:55 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:55 -  - TIME LoadModulesUpdates(request) 0.291 sec
+2016-07-14 07:14:55 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:55 - S - STEP
+2016-07-14 07:14:55 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:55 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:55 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:55 -  - loadFile
+2016-07-14 07:14:56 - U - RETURN
+2016-07-14 07:14:56 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:56 -  - TIME UnGzipArchive 0.123 sec
+2016-07-14 07:14:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469696/sale/updater16.0.26.php'
+2016-07-14 07:14:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469696/sale/updater16.0.26.php': CopyFiles(install/components, components)
+2016-07-14 07:14:57 -  - TIME UpdateStepModules 0.406 sec
+2016-07-14 07:14:57 - UPD_SUCCESS - Updated: sale (16.0.26)<br><li>Исправлена ошибка очистки старых корзин. <li>Исправлена ошибка списания количества. <li>Незначительные исправления в работе платежных систем. <li>Исправлена ошибка выставления произвольных полей у свойств корзины. <li>Исправлена ошибка при оформлении заказа из брошенной корзины, при которой состав комплекта добавляется отдельно. <li>Оптимизация и ускорение просмотра заказа в административном разделе. <li>Незначительные исправления в компоненте sale.order.ajax. <li>Исправлена ошибка совместимости с настраиваемыми службами доставки. 
+2016-07-14 07:14:57 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:57 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.26&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:57 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:57 -  - TIME LoadModulesUpdates(request) 0.305 sec
+2016-07-14 07:14:57 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:57 - S - STEP
+2016-07-14 07:14:57 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:57 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:57 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:57 -  - loadFile
+2016-07-14 07:14:58 - U - RETURN
+2016-07-14 07:14:58 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:58 -  - TIME UnGzipArchive 0.039 sec
+2016-07-14 07:14:58 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469698/sale/updater16.0.27.php'
+2016-07-14 07:14:58 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469698/sale/updater16.0.27.php': CopyFiles(install/components, components)
+2016-07-14 07:14:58 -  - TIME UpdateStepModules 0.237 sec
+2016-07-14 07:14:58 - UPD_SUCCESS - Updated: sale (16.0.27)<br><li>Добавлен \"Умный платеж\" для Яндекс.Кассы. <li>Исправлена проблема со свойствами корзины при добавлении товара. <li>Исправлен вывод свойств товаров в списке заказов. <li>Исправлена ошибка копировании заказа с комплектом. <li>Исправлены ошибки списания товара при отгрузке. <li>Исправления и улучшения по компоненту sale.order.ajax. <li>Исправлена ошибка, при которой не выводилось местоположение магазина в настройках службы доставки ПЭК. <li>Исправлена ошибка, при которой при повторе заказа с комплектом из профиля пользователя товары, входящие в комплект, добавлялись отдельно. <li>Исправлена ошибка, при которой не подставлись данные профиля покупателя при создание заказа из корзины пользователя. 
+2016-07-14 07:14:58 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:58 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:14:58 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.27&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:14:58 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:14:59 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2016-07-14 07:14:59 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:59 - S - STEP
+2016-07-14 07:14:59 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:14:59 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:14:59 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:14:59 -  - loadFile
+2016-07-14 07:14:59 - U - RETURN
+2016-07-14 07:14:59 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:14:59 -  - TIME UnGzipArchive 0.053 sec
+2016-07-14 07:14:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469699/sale/updater16.0.28.php'
+2016-07-14 07:14:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469699/sale/updater16.0.28.php': CopyFiles(install/gadgets, gadgets)
+2016-07-14 07:14:59 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469699/sale/updater16.0.28.php': CopyFiles(install/components, components)
+2016-07-14 07:15:00 -  - TIME UpdateStepModules 0.071 sec
+2016-07-14 07:15:00 - UPD_SUCCESS - Updated: sale (16.0.28)<br><li>Теперь при удалении заказа лишние письма не приходят. <li>Исправлена сортировка статусов в фильтре списка заказов. <li>Исправлена ошибка при отсутствии значения в настройках блокировки заказа. <li>Исправлен вывод свойств заказа, не распределенных по группам. <li>Исправлена ошибка обратной совместимости при создании оплаченного заказа без указания суммы оплаты. <li>Исправлены ссылки в гаджете магазина. <li>Поправлен расчет налогов. <li>Исправлена ошибка обратной совместимости при передаче статуса заказа в событие OnBeforeOrderAdd. <li>Дополнен список типов оплат в обработчике \"Робокасса\". <li>Исправлена ошибка, при которой невозможно было удалить услугу у службы доставки. <li>Исправлена js-ошибка, возникавшая в редактировании заказа, если в заказе присутствовал товар типа \"комплект\", удаленный из каталога. <li>Исправлена ошибка, при которой невозможно было задать ограничение по категории товара для службы доставки.
+2016-07-14 07:15:00 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:00 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.28&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:00 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:00 -  - TIME LoadModulesUpdates(request) 0.266 sec
+2016-07-14 07:15:00 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:00 - S - STEP
+2016-07-14 07:15:00 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:00 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:00 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:00 -  - loadFile
+2016-07-14 07:15:00 - U - RETURN
+2016-07-14 07:15:00 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:00 -  - TIME UnGzipArchive 0.006 sec
+2016-07-14 07:15:00 -  - TIME UpdateStepModules 0.01 sec
+2016-07-14 07:15:00 - UPD_SUCCESS - Updated: sale (16.0.29)<br><li>Исправлена ошибка сохранения элементов комплекта при создании заказа.
+2016-07-14 07:15:01 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:01 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.29&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:01 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:01 -  - TIME LoadModulesUpdates(request) 0.274 sec
+2016-07-14 07:15:01 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:01 - S - STEP
+2016-07-14 07:15:01 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:01 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:01 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:01 -  - loadFile
+2016-07-14 07:15:02 - U - RETURN
+2016-07-14 07:15:02 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:02 -  - TIME UnGzipArchive 0.146 sec
+2016-07-14 07:15:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469702/sale/updater16.0.30.php'
+2016-07-14 07:15:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469702/sale/updater16.0.30.php': CopyFiles(install/components, components)
+2016-07-14 07:15:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469702/sale/updater16.0.30.php': CopyFiles(install/js, js)
+2016-07-14 07:15:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469702/sale/updater16.0.30.php': CopyFiles(install/tools, tools)
+2016-07-14 07:15:02 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469702/sale/updater16.0.30.php': CopyFiles(install/gadgets, gadgets)
+2016-07-14 07:15:03 -  - TIME UpdateStepModules 0.354 sec
+2016-07-14 07:15:03 - UPD_SUCCESS - Updated: sale (16.0.30)<br><li>Добавлена настройка точности округления при расчетах. <li>Исправлена ошибка удаления свойств заказа при удалении группы свойств. <li>Исправлена ошибка фильтрации ставок налогов при пустом значении. <li>Исправлено отображение суммы у отложенных товаров в компоненте sale.basket.basket.line. <li>Оптимизация работы компонента sale.basket.basket.line. <li>Незначительные исправления компонента sale.order.ajax. <li>В почтовые шаблоны добавлена переменная кода заказа для корректной работы ссылок на заказ. <li>Исправлена ошибка, при которой не разворачивался комплект в форме создания заказа, если в составе заказа есть любой другой товар. <li>Исправлена ошибка при добавлении нового местоположения, при которой оно не появлялось в списке выбора местоположений, построенном через старый API. <li>Небольшие правки службы доставки СПСР.
+2016-07-14 07:15:03 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:03 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:03 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.30&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:03 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:03 -  - TIME LoadModulesUpdates(request) 0.291 sec
+2016-07-14 07:15:03 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:03 - S - STEP
+2016-07-14 07:15:03 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:03 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:03 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:03 -  - loadFile
+2016-07-14 07:15:04 - U - RETURN
+2016-07-14 07:15:04 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:04 -  - TIME UnGzipArchive 0.085 sec
+2016-07-14 07:15:04 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469704/sale/updater16.0.31.php'
+2016-07-14 07:15:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469704/sale/updater16.0.31.php': CopyFiles(install/components, components)
+2016-07-14 07:15:04 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469704/sale/updater16.0.31.php': CopyFiles(install/js, js)
+2016-07-14 07:15:05 -  - TIME UpdateStepModules 0.213 sec
+2016-07-14 07:15:05 - UPD_SUCCESS - Updated: sale (16.0.31)<br><li>Исправлена ошибка, при которой товары списывались несмотря на проблему отгрузки. <li>Исправлена резервация при смене SKU при редактировании заказа. <li>Исправлена ошибка изменения количества в корзине с дробным коэффициентом. <li>Исправлена калькуляция аффилиата. <li>Исправлена смена статусов у заказа. <li>Исправлена ошибка импорта заказов в CRM. <li>Исправлена обратная совместимость выборки заказов с несколькими свойствами. <li>Исправлена ошибка, не позволяющая выгрузить в Excel выбранные заказы. <li>Исправлена логика оформления заказа из брошенной корзины. <li>Исправлены ошибки при импорте местоположений. <li>Незначительные исправления компонента sale.order.ajax. <li>Добавлена возможность пересчета заказа после изменения в событиях по флагу \"RECREATE_ORDER\" в компоненте sale.order.ajax.
+2016-07-14 07:15:05 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:05 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:05 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.0&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:05 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:05 -  - TIME LoadModulesUpdates(request) 0.27 sec
+2016-07-14 07:15:05 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:05 - S - STEP
+2016-07-14 07:15:05 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:05 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:05 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:05 -  - loadFile
+2016-07-14 07:15:06 - U - RETURN
+2016-07-14 07:15:06 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:06 -  - TIME UnGzipArchive 0.045 sec
+2016-07-14 07:15:06 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469706/blog/updater16.5.1/index.php'
+2016-07-14 07:15:06 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469706/blog/updater16.5.1/index.php': CopyFiles(install/components, components)
+2016-07-14 07:15:06 -  - TIME UpdateStepModules 0.11 sec
+2016-07-14 07:15:06 - UPD_SUCCESS - Updated: blog (16.5.1)<br><li>Изменения, направленные на поддержку отправки push-уведомлений о сообщениях, адресованных всем сотрудникам корпоративного портала, либо в подразделение. <li>Незначительные изменения и исправления.
+2016-07-14 07:15:06 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:06 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:06 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.1&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:06 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:06 -  - TIME LoadModulesUpdates(request) 0.269 sec
+2016-07-14 07:15:06 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:06 - S - STEP
+2016-07-14 07:15:06 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:07 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:07 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:07 -  - loadFile
+2016-07-14 07:15:07 - U - RETURN
+2016-07-14 07:15:07 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:07 -  - TIME UnGzipArchive 0.011 sec
+2016-07-14 07:15:07 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469707/blog/updater16.5.2/index.php'
+2016-07-14 07:15:07 -  - TIME UpdateStepModules 0.015 sec
+2016-07-14 07:15:07 - UPD_SUCCESS - Updated: blog (16.5.2)<br><li>Исправлена ошибка предыдущего обновления, создающая некорректные почтовые уведомления для языков, отличных от русского, немецкого и английского.
+2016-07-14 07:15:07 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:07 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:07 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.2&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:07 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:07 -  - TIME LoadModulesUpdates(request) 0.259 sec
+2016-07-14 07:15:07 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:08 - S - STEP
+2016-07-14 07:15:08 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:08 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:08 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:08 -  - loadFile
+2016-07-14 07:15:08 - U - RETURN
+2016-07-14 07:15:08 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:08 -  - TIME UnGzipArchive 0.023 sec
+2016-07-14 07:15:08 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469708/blog/updater16.5.3.php'
+2016-07-14 07:15:08 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469708/blog/updater16.5.3.php': CopyFiles(install/components, components)
+2016-07-14 07:15:08 -  - TIME UpdateStepModules 0.046 sec
+2016-07-14 07:15:08 - UPD_SUCCESS - Updated: blog (16.5.3)<br><li>Комментарии адаптированы под автокомпозитный режим сайта. 
+2016-07-14 07:15:08 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:08 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:08 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:08 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:09 -  - TIME LoadModulesUpdates(request) 0.269 sec
+2016-07-14 07:15:09 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:09 - S - STEP
+2016-07-14 07:15:09 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:09 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:09 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:09 -  - loadFile
+2016-07-14 07:15:09 - U - RETURN
+2016-07-14 07:15:09 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:09 -  - TIME UnGzipArchive 0.012 sec
+2016-07-14 07:15:09 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469709/clouds/updater16.0.1.php'
+2016-07-14 07:15:09 -  - TIME UpdateStepModules 0.413 sec
+2016-07-14 07:15:09 - UPD_SUCCESS - Updated: clouds (16.0.1)<br><li>Для облачных хранилищ, основанных на OpenStack, учитывается работа по https. <li>Добавлены события для отслеживания действий с файлами. 
+2016-07-14 07:15:10 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:10 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:10 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.0&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:10 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:10 -  - TIME LoadModulesUpdates(request) 0.271 sec
+2016-07-14 07:15:10 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:10 - S - STEP
+2016-07-14 07:15:10 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:10 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:10 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:10 -  - loadFile
+2016-07-14 07:15:11 - U - RETURN
+2016-07-14 07:15:11 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:11 -  - TIME UnGzipArchive 0.06 sec
+2016-07-14 07:15:11 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469711/report/updater16.0.1.php'
+2016-07-14 07:15:11 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469711/report/updater16.0.1.php': CopyFiles(install/components, components)
+2016-07-14 07:15:11 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469711/report/updater16.0.1.php': CopyFiles(install/public/js, js)
+2016-07-14 07:15:11 -  - TIME UpdateStepModules 0.315 sec
+2016-07-14 07:15:11 - UPD_SUCCESS - Updated: report (16.0.1)<br><li>Улучшена совместимость с PHP 7. <li>Добавлена возможность совместной работы с отчетами.
+2016-07-14 07:15:11 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:11 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:11 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.2&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:11 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:12 -  - TIME LoadModulesUpdates(request) 0.283 sec
+2016-07-14 07:15:12 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:12 - S - STEP
+2016-07-14 07:15:12 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:12 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:12 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:12 -  - loadFile
+2016-07-14 07:15:12 - U - RETURN
+2016-07-14 07:15:12 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:12 -  - TIME UnGzipArchive 0.021 sec
+2016-07-14 07:15:12 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469712/pull/updater16.0.3.php'
+2016-07-14 07:15:12 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469712/pull/updater16.0.3.php': CopyFiles(install/js, js)
+2016-07-14 07:15:12 -  - TIME UpdateStepModules 0.023 sec
+2016-07-14 07:15:12 - UPD_SUCCESS - Updated: pull (16.0.3)<br><li>Поддержка Application Cache. <li>Исправление незначительных ошибок.
+2016-07-14 07:15:12 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:12 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.0.3&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:12 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:13 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2016-07-14 07:15:13 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:13 - S - STEP
+2016-07-14 07:15:13 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:13 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:13 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:13 -  - loadFile
+2016-07-14 07:15:13 - U - RETURN
+2016-07-14 07:15:13 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:13 -  - TIME UnGzipArchive 0.004 sec
+2016-07-14 07:15:13 -  - TIME UpdateStepModules 0.006 sec
+2016-07-14 07:15:13 - UPD_SUCCESS - Updated: pull (16.5.0)<br><li>Незначительные исправления и улучшения.
+2016-07-14 07:15:13 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:13 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:13 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.3&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.5.0&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:13 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:14 -  - TIME LoadModulesUpdates(request) 0.293 sec
+2016-07-14 07:15:14 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:14 - S - STEP
+2016-07-14 07:15:14 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:14 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:14 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:14 -  - loadFile
+2016-07-14 07:15:14 - U - RETURN
+2016-07-14 07:15:14 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:14 -  - TIME UnGzipArchive 0.044 sec
+2016-07-14 07:15:14 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469714/mobileapp/updater16.0.4.php'
+2016-07-14 07:15:14 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469714/mobileapp/updater16.0.4.php': CopyFiles(install/components, components)
+2016-07-14 07:15:14 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469714/mobileapp/updater16.0.4.php': CopyFiles(install/js, js)
+2016-07-14 07:15:14 -  - TIME UpdateStepModules 0.052 sec
+2016-07-14 07:15:14 - UPD_SUCCESS - Updated: mobileapp (16.0.4)<br><li>Разработчикам: добавлен API для управления стеком экранов мобильного приложения. <li>Исправлены незначительные ошибки. 
+2016-07-14 07:15:15 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:15 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:15 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.4&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.5.0&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:15 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:15 -  - TIME LoadModulesUpdates(request) 0.268 sec
+2016-07-14 07:15:15 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:15 - S - STEP
+2016-07-14 07:15:15 - LMU01 - LoadModulesUpdates-Step
+2016-07-14 07:15:15 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:15 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:15 -  - loadFile
+2016-07-14 07:15:15 - U - RETURN
+2016-07-14 07:15:15 -  - exec CUpdateClient::UnGzipArchive
+2016-07-14 07:15:15 -  - TIME UnGzipArchive 0.01 sec
+2016-07-14 07:15:15 - CSURUS1 - Run updater '/bitrix/updates/update_m1468469715/mobileapp/updater16.0.5.php'
+2016-07-14 07:15:15 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1468469715/mobileapp/updater16.0.5.php': CopyFiles(install/js, js)
+2016-07-14 07:15:15 -  - TIME UpdateStepModules 0.018 sec
+2016-07-14 07:15:15 - UPD_SUCCESS - Updated: mobileapp (16.0.5)<br><li>Исправлены незначительные ошибки в мобильных видеозвонках.
+2016-07-14 07:15:16 -  - exec CUpdateClient::LoadModulesUpdates
+2016-07-14 07:15:16 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:15:16 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.5&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.5.0&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:15:16 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:15:16 -  - TIME LoadModulesUpdates(request) 0.285 sec
+2016-07-14 07:15:16 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:15:16 - STEP - Finish - NOUPDATES
+2016-07-14 07:15:16 - STEP - Finish - NOUPDATES
+2016-07-14 07:17:08 -  - exec CUpdateClient::GetUpdatesList
+2016-07-14 07:17:08 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:17:08 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.5&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.5.0&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:17:08 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:17:08 -  - TIME GetUpdatesList(request) 0.268 sec
+2016-07-14 07:17:08 -  - exec CUpdateClient::ParseServerData
+2016-07-14 07:22:12 -  - exec CUpdateClient::GetUpdatesList
+2016-07-14 07:22:12 -  - exec CUpdateClient::CollectRequestData
+2016-07-14 07:22:12 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.13&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=1&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=vremonte24.test2.com&CHHB=vremonte24.test2.com&CSAB=127.0.0.1&CANGZIP=Y&CLIENT_PHPVER=5.6.19&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.13&bitm_abtest=16.0.0&bitm_bitrixcloud=16.0.0&bitm_blog=16.5.3&bitm_catalog=16.0.15&bitm_clouds=16.0.1&bitm_compression=16.0.0&bitm_conversion=15.5.6&bitm_currency=16.0.1&bitm_eshopapp=15.0.0&bitm_fileman=16.5.2&bitm_form=15.0.2&bitm_forum=16.5.1&bitm_highloadblock=16.0.2&bitm_iblock=16.0.6&bitm_mobileapp=16.0.5&bitm_perfmon=16.0.0&bitm_photogallery=16.0.1&bitm_pull=16.5.0&bitm_report=16.0.1&bitm_sale=16.0.31&bitm_scale=16.0.0&bitm_search=16.0.0&bitm_security=16.0.3&bitm_sender=16.0.3&bitm_seo=16.0.3&bitm_socialservices=16.5.3&bitm_storeassist=16.0.0&bitm_subscribe=16.0.0&bitm_translate=14.5.0&bitm_vote=15.5.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_OFC=Small&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2016-07-14 07:22:12 -  - exec CUpdateClient::GetHTTPPage
+2016-07-14 07:22:13 -  - TIME GetUpdatesList(request) 0.277 sec
+2016-07-14 07:22:13 -  - exec CUpdateClient::ParseServerData

@@ -1,0 +1,229 @@
+.grid-inside {
+  .grid-item {
+    .grid-item-inner {
+      &:before {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-color: #00a7e7;
+        vertical-align: top;
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: @zindex-other;
+      }
+      position: relative;
+      overflow: hidden;
+    }
+    &:hover,
+    &:focus {
+      .grid-item-inner {
+        &:before {
+          opacity: .9;
+        }
+      }
+    }
+    &:hover {
+      border: 1px solid #ccc;
+    }
+    border: 1px solid @gray-lighter;
+    display: inline-block;
+    opacity: .7;
+    position: relative;
+    margin: 0 0 24px 0;
+    .inside {
+      position: absolute;
+      bottom: 10%;
+      margin-left: 20px;
+      z-index: @zindex-other+1;
+      .title {
+        white-space: nowrap;
+      }
+    }
+    max-width: 360px;
+    max-height: 360px;
+    padding: 20px;
+  }
+  a {
+    color: #fff;
+    .title {
+      border-bottom: 1px solid transparent;
+    }
+    &:focus,
+    &:hover {
+      text-decoration: none;
+      .title {
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+  .grid-item-large {
+    max-width: 680px;
+  }
+}
+
+.grid-outside {
+  .grid-item {
+    opacity: .7;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    border: 1px solid @gray-lighter;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 251px;
+    position: relative;
+    &:hover {
+      border: 1px solid #ccc;
+
+    }
+    &.grid-item-active {
+      opacity: 1;
+    }
+    &.grid-item-large {
+      max-width: 527px;
+    }
+    .expire-date {
+      font-size: @font-size-small;
+      margin: 16px 0 13px;
+    }
+    .title {
+      display: inline-block;
+      height: 59px;
+      overflow: hidden;
+    }
+    .current-action {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      text-transform: uppercase;
+      font-size: ceil(@font-size-base * 0.70);
+      font-weight: bold;
+      padding: 5px 8px;
+      background: @brand-primary;
+      color: #fff;
+    }
+  }
+}
+
+.grid {
+  margin: 20px 0 20px 0;
+  .item {
+    margin: 0 0 40px 0;
+    font-weight: 600;
+  }
+  .img {
+
+  }
+  .title {
+    margin: 15px 0 0;
+    display: block;
+  }
+  .stats {
+    margin: 10px 0 0;
+  }
+  .item-more {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .col {
+    padding: 0 7.5px;
+    &.col-sm-6 {
+      @media (min-width: @screen-sm-min) {
+        width: 48%;
+      }
+
+      .item {
+        @media (max-width: @grid-float-breakpoint-max) {
+          .title {
+            width: 344px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .stats {
+            width: 344px;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .img {
+            img {
+              @media (max-width: @grid-float-breakpoint-max) {
+                margin: 0 auto;
+              }
+            }
+          }
+        }
+        @media (max-width: 374px) {
+          .title {
+            width: auto;
+          }
+          .stats {
+            width: auto;
+          }
+        }
+      }
+
+    }
+    &.col-xs-6 {
+      @media (min-width: @screen-xs-min) {
+        width: 46%;
+      }
+    }
+    &.col-sm-3 {
+      @media (min-width: @screen-sm-min) {
+        width: 24%;
+      }
+    }
+    &.col-sm-4 {
+      @media (min-width: @screen-sm-min) {
+        width: 31%;
+      }
+    }
+    &.col-md-3 {
+      @media (min-width: @screen-md-min) {
+        width: 23%;
+      }
+    }
+    &.col-md-4 {
+      @media (min-width: @screen-md-min) {
+        width: 31%;
+      }
+    }
+  }
+}
+.grid-catalog {
+  .item {
+    .img {
+      img {
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.grid-white {
+  .item {
+    margin: 8px 8px 28px;
+    border-radius: 10px;
+    padding: 20px;
+    .box-shadow(0 0 18px rgba(0,0,0,.07));
+    > .title {
+      font-weight: bold;
+      font-size: @font-size-large;
+      margin: 0 0 10px 0;
+    }
+    > .text {
+      font-size: ceil(@font-size-base * 0.90);
+    }
+    .stats {
+      padding: 10px 0 0;
+      .text {
+        margin: 0 20px 0 0;
+      }
+      .vote-points {
+        float: right;
+      }
+    }
+  }
+}

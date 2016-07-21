@@ -1,0 +1,609 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>VREMONTE24</title>
+    <meta name="description" content="Ремонт цифровой техники">
+    <meta name="author" content="crtweb.ru">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/lib/owl-carousel/owl.carousel.css">
+
+    <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="visible-xs xs-top">
+        <div class="container-fluid">
+            <div class="row ">
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-menu-btn">
+                    <div class="xs-top-icon xs-menu-icon"></div>
+                </a>
+                <div class="col-xs-4 xs-col xs-logo-notbtn">
+                    <div class="xs-top-icon xs-site-logo"></div>
+                </div>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-search-btn">
+                    <div class="xs-top-icon xs-search-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-login-btn">
+                    <div class="xs-top-icon xs-login-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-cart-btn">
+                    <div class="xs-top-icon xs-cart-icon"></div>
+                    <div class="xs-cart-count">3</div>
+                </a>
+            </div>
+        </div>
+        <div class="xs-menu-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="first-menu">
+                            <li><a href="/models.html">Запчасти</a></li>
+                            <li><a href="/catalog.html">Аксессуары</a></li>
+                            <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                            <li><a href="/blog.html">Блог</a></li>
+                            <li><a href="/qa.html">Вопросы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <ul class="second-menu-left second-menu">
+                            <li><a href="/about.html">О нас</a></li>
+                            <li><a href="/for_client.html">Клиенту</a></li>
+                            <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                            <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="second-menu-right second-menu">
+                            <li><a href="/specials.html">Скидки</a></li>
+                            <li><a href="/news.html">Новости</a></li>
+                            <li><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 20px 0 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6" style="padding: 0; margin-right: -4px;">
+                        <nav class="navbar navbar-default third-menu-left third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2 navbar-default-link-karta">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-6" style="padding: 0;">
+                        <nav class="navbar navbar-default third-menu-right third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 0">
+        </div>
+        <div class="xs-search-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" placeholder="Поиск по сайту">
+                                                <span class="input-group-btn">
+                                                    <input type="submit" class="btn btn-sm btn-primary" value="Найти">
+                                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xs-cart-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="cart-title">В корзине <span class="text-red">3</span> товара</div>
+                        <table class="cart-positions">
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="itog">
+                            Итог: <span class="text-primary">2525 руб.</span>
+                        </div>
+                        <div class="oformit">
+                            <a href="/cart.html" class="btn btn-primary btn-block">
+                                Оформить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="dropdown navbar-link-style-1 navbar-default-link-karta">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown navbar-link-style-1">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/for_client.html">Клиенту</a></li>
+                <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                <li><a href="/specials.html">Скидки</a></li>
+                <li><a href="/news.html">Новости</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-link-style-1 navbar-default-link-vhod"><a href="javascript:void(0)">Вход</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container hidden-xs">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <div class="site-logo">
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <div style="margin: 5px 0 0  0;">
+                    <form method="POST">
+                        <div class="input-group">
+                            <div class="input-site-search-container">
+                                <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                <div class="dropdown input-site-search-category small">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                        <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                                <span class="input-group-btn">
+                                                    <input type="submit" class="btn btn-primary" value="Найти">
+                                                </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right telephone">
+                    <span class="text-nowrap country-city">+7 3452</span>
+                    <span class="text-nowrap local">12-34-56</span>
+                </div>
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="perezvonite-mne dotted-gray">
+                        Перезвоните мне
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="mini-korzina dotted-gray">
+                        Корзина
+                    </a>
+                </div>
+                <div class="text-right mini-korzina-value">
+                    В корзине <span class="text-red" style="font-weight: bold;">3</span> товара
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-menu hidden-xs">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="top-menu-links">
+                        <li><a href="/models.html">Запчасти</a></li>
+                        <li><a href="/catalog.html">Аксессуары</a></li>
+                        <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                        <li><a href="/blog.html">Блог</a></li>
+                        <li><a href="/qa.html">Вопросы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="javascript:void(0)">Вопросы</a></li>
+                </ul>
+                <article>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-push-9 col-sm-3 text-right">
+                                    <a href="javascript:void(0)" class="btn btn-primary" style="margin: 20px 0 0 0;">Задать свой вопрос</a>
+                                </div>
+                                <div class="col-xs-12 col-sm-pull-3 col-sm-9">
+                                    <h3>Вопросы</h3>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-3">
+                                    <div class="borders-1 filter">
+                                        <form method="POST">
+                                            <h4><strong>Фильтр</strong></h4>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="row">
+                                                    <div class="col-xs-6">
+                                                        <input type="submit" class="btn btn-transparent-primary-normal-border btn-block" value="Сбросить">
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <input type="submit" class="btn btn-primary btn-block" value="Найти">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-8 col-md-9">
+                                    <div class="qa">
+                                        <div class="borders-1 item">
+                                            <a href="javascript:void(0)" class="expand collapsed" data-toggle="collapse" data-target="#qa-expand-1"></a>
+                                            <div class="title">Какой срок ремонта мобильного телефона?</div>
+                                            <div class="text">В наличии iPhone 5. Работает исправно, однако уже продолжительное время странно держит зарядку. А самое главное отображает заряд не корректно. Т.е. начиная с 20-30% может разрядится за 20 минут — это при обычном использовании интернета. При этом нагревается существенно в режиме использования как точки доступа.</div>
+                                            <div class="collapse" id="qa-expand-1">
+                                                <div class="answer">
+                                                    <div class="row item">
+                                                        <div class="col-xs-12 col-sm-2">
+                                                            <div class="img">
+                                                                <img src="http://dummyimage.com/70x70.jpg" class="img-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-10">
+                                                            <div class="title">Александр Иванов</div>
+                                                            <div class="text">Срок ремонта мобильного телефона зависит от поломки телефона. Практика показывает, что в основном 70% ремонтов мобильных телефонов производится в течений 24 часов, а в случае если у вас поврежден дисплей то ремонт телефона составляет от 15 минут.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="stats">
+                                                    <div class="text">
+                                                        Статья: <span>Ремонт вибрации на смартфоне Nokia X6-00</span>
+                                                    </div>
+                                                    <div class="views">
+                                                        13 420
+                                                    </div>
+                                                    <div class="vote-points">
+                                                        <div class="prefix">Оценка модели</div>
+                                                        <div class="stars">
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div></div>
+                                                            <div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="borders-1 item">
+                                            <a href="javascript:void(0)" class="expand collapsed" data-toggle="collapse" data-target="#qa-expand-2"></a>
+                                            <div class="title">Какой срок ремонта мобильного телефона?</div>
+                                            <div class="text">В наличии iPhone 5. Работает исправно, однако уже продолжительное время странно держит зарядку. А самое главное отображает заряд не корректно. Т.е. начиная с 20-30% может разрядится за 20 минут — это при обычном использовании интернета. При этом нагревается существенно в режиме использования как точки доступа.</div>
+                                            <div class="collapse" id="qa-expand-2">
+                                                <div class="answer">
+                                                    <div class="row item">
+                                                        <div class="col-xs-12 col-sm-2">
+                                                            <div class="img">
+                                                                <img src="http://dummyimage.com/70x70.jpg" class="img-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-10">
+                                                            <div class="title">Александр Иванов</div>
+                                                            <div class="text">Срок ремонта мобильного телефона зависит от поломки телефона. Практика показывает, что в основном 70% ремонтов мобильных телефонов производится в течений 24 часов, а в случае если у вас поврежден дисплей то ремонт телефона составляет от 15 минут.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="stats">
+                                                    <div class="text">
+                                                        Статья: <span>Ремонт вибрации на смартфоне Nokia X6-00</span>
+                                                    </div>
+                                                    <div class="views">
+                                                        13 420
+                                                    </div>
+                                                    <div class="vote-points">
+                                                        <div class="prefix">Оценка модели</div>
+                                                        <div class="stars">
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div></div>
+                                                            <div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="borders-1 item">
+                                            <a href="javascript:void(0)" class="expand collapsed" data-toggle="collapse" data-target="#qa-expand-3"></a>
+                                            <div class="title">Какой срок ремонта мобильного телефона?</div>
+                                            <div class="text">В наличии iPhone 5. Работает исправно, однако уже продолжительное время странно держит зарядку. А самое главное отображает заряд не корректно. Т.е. начиная с 20-30% может разрядится за 20 минут — это при обычном использовании интернета. При этом нагревается существенно в режиме использования как точки доступа.</div>
+                                            <div class="collapse" id="qa-expand-3">
+                                                <div class="answer">
+                                                    <div class="row item">
+                                                        <div class="col-xs-12 col-sm-2">
+                                                            <div class="img">
+                                                                <img src="http://dummyimage.com/70x70.jpg" class="img-circle">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-12 col-sm-10">
+                                                            <div class="title">Александр Иванов</div>
+                                                            <div class="text">Срок ремонта мобильного телефона зависит от поломки телефона. Практика показывает, что в основном 70% ремонтов мобильных телефонов производится в течений 24 часов, а в случае если у вас поврежден дисплей то ремонт телефона составляет от 15 минут.</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="stats">
+                                                    <div class="text">
+                                                        Статья: <span>Ремонт вибрации на смартфоне Nokia X6-00</span>
+                                                    </div>
+                                                    <div class="views">
+                                                        13 420
+                                                    </div>
+                                                    <div class="vote-points">
+                                                        <div class="prefix">Оценка модели</div>
+                                                        <div class="stars">
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div class="active"></div>
+                                                            <div></div>
+                                                            <div></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <ul class="pagination">
+                                        <li><a href="javascript:void(0)">&larr; Предыдущая</a></li>
+                                        <li><a href="javascript:void(0)">1</a></li>
+                                        <li class="active"><a href="javascript:void(0)">2</a></li>
+                                        <li><a href="javascript:void(0)">3</a></li>
+                                        <li><a href="javascript:void(0)">4</a></li>
+                                        <li><a href="javascript:void(0)">5</a></li>
+                                        <li><a href="javascript:void(0)">...</a></li>
+                                        <li><a href="javascript:void(0)">42</a></li>
+                                        <li><a href="javascript:void(0)">Следующая &rarr;</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">468</div>
+                    <div class="vsego-title">инструкций</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">34&nbsp;590</div>
+                    <div class="vsego-title">запчастей</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">1&nbsp;438</div>
+                    <div class="vsego-title">ответов</div>
+                </div>
+            </div>
+        </div>
+        <hr class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="bottom-menu row hidden-xs">
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">О нас</a>
+                            <a href="javascript:void(0)">Клиенту</a>
+                            <a href="javascript:void(0)">Скидки</a>
+                            <a href="javascript:void(0)">Новости</a>
+                            <a href="javascript:void(0)">Блог</a>
+                            <a href="javascript:void(0)">Контакты</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">Запчасти</a>
+                            <a href="javascript:void(0)">Аксессуары</a>
+                            <a href="javascript:void(0)">Инструкции по ремонту</a>
+                            <a href="javascript:void(0)">Вопросы</a>
+                            <a href="javascript:void(0)">Доставка и оплата</a>
+                            <a href="javascript:void(0)">Гарантия и возврат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <button class="btn btn-block btn-transparent">Обратная связь</button>
+                    <div class="mi-v-socsetyah">
+                        <div class="mi-v-socsetyah-title">
+                            Мы в соцсетях
+                        </div>
+                        <div class="mi-v-socsetyah-knopki">
+                            <a href="javascript:void(0)" class="knopka feisbuk"></a>
+                            <a href="javascript:void(0)" class="knopka vkont"></a>
+                            <a href="javascript:void(0)" class="knopka tviter"></a>
+                            <a href="javascript:void(0)" class="knopka utub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <div style="margin: 0 0 27px 0;" class="hidden-xs">
+                        <form method="POST">
+                            <div class="input-group">
+                                <div class="input-site-search-container">
+                                    <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                    <div class="dropdown input-site-search-category small">
+                                        <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                            <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-info" value="Найти">
+                            </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sposobi-oplati hidden-xs">
+                        <div class="sposobi-oplati-title">
+                            Способы оплаты
+                        </div>
+                        <div class="sposobi-oplati-knopki">
+                            <a href="javascript:void(0)" class="knopka viza"></a>
+                            <a href="javascript:void(0)" class="knopka mastercard"></a>
+                            <a href="javascript:void(0)" class="knopka qiwivalet"></a>
+                            <a href="javascript:void(0)" class="knopka yandeksdengi"></a>
+                            <a href="javascript:void(0)" class="knopka vebmani"></a>
+                            <a href="javascript:void(0)" class="knopka alfabank"></a>
+                        </div>
+                    </div>
+                    <div class="razrabotka-saita">
+                        Разработка сайта &mdash; <strong>агентство Creative</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-padding"></div>
+    </footer>
+
+</body>
+</html>

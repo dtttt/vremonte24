@@ -1,0 +1,208 @@
+.tech-overlook {
+  .main-img {
+    margin: 55px 0 80px 0;
+  }
+  .attributes {
+    margin: 0 0 38px 0;
+    font-weight: 600;
+    thead {
+      tr {
+        th {
+          font-size: ceil(@font-size-base * 1.40);
+          font-weight: bold;
+          padding-top: 20px;
+          padding-bottom: 15px;
+        }
+      }
+    }
+    tbody {
+      tr:last-child {
+        td {
+          padding-bottom: 20px;
+          border-bottom: 1px solid #edf2f4;
+        }
+      }
+    }
+    td {
+      &.title {
+        color: #8f9bb0;
+      }
+    }
+  }
+  .perspective-title {
+    margin: 0 0 35px 0;
+    .col-xs-6 {
+      @media (min-width: @screen-sm-min) {
+        width: 44%;
+        &.col-right {
+          margin: 0 0 0 3%;
+        }
+      }
+    }
+    .col {
+      position: relative;
+      text-align: center;
+      .title {
+        background: #fff;
+        position: relative;
+        display: inline-block;
+        padding: 0 7px;
+        z-index: @zindex-other;
+        font-size: ceil(@font-size-base * 0.75);
+        color: #8d99ae;
+      }
+      &:before {
+        content: "";
+        display: block;
+        height: 1px;
+        background: #edf2f4;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 10px;
+      }
+    }
+  }
+  .perspective-imgs {
+    .col-sm-6 {
+      @media (min-width: @screen-sm-min) {
+        width: 46%;
+      }
+    }
+    .col-md-3 {
+      @media (min-width: @screen-md-min) {
+        width: 23%;
+      }
+    }
+    .col {
+      margin: 0 0 30px 0;
+      text-align: center;
+      .title-container {
+        margin: 0 0 20px 0;
+        .title {
+          background: #fff;
+          position: relative;
+          display: inline-block;
+          padding: 0 7px;
+          z-index: @zindex-other;
+          font-size: ceil(@font-size-base * 0.75);
+          color: #8d99ae;
+        }
+        &:before {
+          content: "";
+          display: block;
+          height: 1px;
+          background: #edf2f4;
+          width: 100%;
+          position: absolute;
+          left: 0;
+          top: 10px;
+        }
+      }
+    }
+  }
+}
+.other-devices {
+  .item {
+    margin: 0 0 20px 0;
+    max-width: 160px;
+    .caption {
+      font-size: ceil(@font-size-base * 0.75);
+      color: #8d99ae;
+      margin: 0 0 14px 0;
+    }
+    @media (max-width: @screen-xs-max) {
+      max-width: none;
+      .img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .title {
+      margin: 16px 0 0 0;
+      font-size: @font-size-small;
+      display: block;
+    }
+  }
+}
+.repairability {
+  font-weight: 600;
+  .col-right {
+    border-left: 1px solid #edf2f4;
+    position: relative;
+    min-height: 20px;
+    &:before {
+      content: "";
+      width: 11px;
+      height: 20px;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin: -10px 0 0 -1px;
+      .main-sprite(-391px -97px);
+    }
+  }
+  .total-icon {
+    .main-sprite(-391px -200px);
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  .total-title {
+    margin: 24px 0 0 0;
+    text-align: center;
+  }
+  .total-value {
+    font-size: ceil(@font-size-base * 7.14285);
+    text-align: center;
+    font-weight: bold;
+  }
+  .key-value {
+    tr {
+      .td-title {
+        color: #8f9bb0;
+      }
+      .td-bar {
+        .bar {
+          width: 66px;
+          height: 12px;
+          border: 1px solid #b2e5f8;
+          position: relative;
+          border-radius: 6px;
+          display: inline-block;
+          vertical-align: middle;
+          .fill {
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: -1px 0 0 0;
+            border-radius: 6px;
+            background: @brand-primary;
+            height: 12px;
+          }
+        }
+      }
+      .td-bar-value {
+        color: @brand-primary;
+      }
+      &:hover {
+        &, .td-title, .td-bar-value {
+          color: @gray-dark;
+        }
+        background: #f6f8f9;
+        .td-bar {
+          .bar {
+            border-color: @gray-dark;
+            .fill {
+              background: @gray-dark;
+            }
+          }
+        }
+        .td-bar-value {
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.filter {
+  margin: 0 0 20px 0;
+}
+.filter .param {
+  margin: 0 0 10px 0;
+}
+.filter .actions .col-xs-6 {
+  padding: 0 2px;
+}

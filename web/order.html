@@ -1,0 +1,771 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>VREMONTE24</title>
+    <meta name="description" content="Ремонт цифровой техники">
+    <meta name="author" content="crtweb.ru">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/lib/owl-carousel/owl.carousel.css">
+
+    <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="visible-xs xs-top">
+        <div class="container-fluid">
+            <div class="row ">
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-menu-btn">
+                    <div class="xs-top-icon xs-menu-icon"></div>
+                </a>
+                <div class="col-xs-4 xs-col xs-logo-notbtn">
+                    <div class="xs-top-icon xs-site-logo"></div>
+                </div>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-search-btn">
+                    <div class="xs-top-icon xs-search-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-login-btn">
+                    <div class="xs-top-icon xs-login-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-cart-btn">
+                    <div class="xs-top-icon xs-cart-icon"></div>
+                    <div class="xs-cart-count">3</div>
+                </a>
+            </div>
+        </div>
+        <div class="xs-menu-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="first-menu">
+                            <li><a href="/models.html">Запчасти</a></li>
+                            <li><a href="/catalog.html">Аксессуары</a></li>
+                            <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                            <li><a href="/blog.html">Блог</a></li>
+                            <li><a href="/qa.html">Вопросы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <ul class="second-menu-left second-menu">
+                            <li><a href="/about.html">О нас</a></li>
+                            <li><a href="/for_client.html">Клиенту</a></li>
+                            <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                            <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="second-menu-right second-menu">
+                            <li><a href="/specials.html">Скидки</a></li>
+                            <li><a href="/news.html">Новости</a></li>
+                            <li><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 20px 0 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6" style="padding: 0; margin-right: -4px;">
+                        <nav class="navbar navbar-default third-menu-left third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2 navbar-default-link-karta">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-6" style="padding: 0;">
+                        <nav class="navbar navbar-default third-menu-right third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 0">
+        </div>
+        <div class="xs-search-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" placeholder="Поиск по сайту">
+                                            <span class="input-group-btn">
+                                                <input type="submit" class="btn btn-sm btn-primary" value="Найти">
+                                            </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xs-cart-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="cart-title">В корзине <span class="text-red">3</span> товара</div>
+                        <table class="cart-positions">
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="itog">
+                            Итог: <span class="text-primary">2525 руб.</span>
+                        </div>
+                        <div class="oformit">
+                            <a href="/cart.html" class="btn btn-primary btn-block">
+                                Оформить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="dropdown navbar-link-style-1 navbar-default-link-karta">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown navbar-link-style-1">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/for_client.html">Клиенту</a></li>
+                <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                <li><a href="/specials.html">Скидки</a></li>
+                <li><a href="/news.html">Новости</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-link-style-1 navbar-default-link-vhod"><a href="javascript:void(0)">Вход</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container hidden-xs">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <div class="site-logo">
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <div style="margin: 5px 0 0  0;">
+                    <form method="POST">
+                        <div class="input-group">
+                            <div class="input-site-search-container">
+                                <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                <div class="dropdown input-site-search-category small">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                        <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                            <span class="input-group-btn">
+                                                <input type="submit" class="btn btn-primary" value="Найти">
+                                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right telephone">
+                    <span class="text-nowrap country-city">+7 3452</span>
+                    <span class="text-nowrap local">12-34-56</span>
+                </div>
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="perezvonite-mne dotted-gray">
+                        Перезвоните мне
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="mini-korzina dotted-gray">
+                        Корзина
+                    </a>
+                </div>
+                <div class="text-right mini-korzina-value">
+                    В корзине <span class="text-red" style="font-weight: bold;">3</span> товара
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-menu hidden-xs">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="top-menu-links">
+                        <li><a href="/models.html">Запчасти</a></li>
+                        <li><a href="/catalog.html">Аксессуары</a></li>
+                        <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                        <li><a href="/blog.html">Блог</a></li>
+                        <li><a href="/qa.html">Вопросы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <section class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="breadcrumb">
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="javascript:void(0)">Корзина</a></li>
+                    </ul>
+                    <article>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3>Корзина <span class="text-gray-light">(3 товара)</span></h3>
+                                <form method="post">
+                                    <div class="row row-order">
+                                        <div class="col-xs-12 col-md-8 col-lg-9">
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Ваши товары <span class="text-gray-light">(3)</span></h4>
+                                                </div>
+                                                <div class="xs-cart-positions visible-xs">
+                                                    <div class="item">
+                                                        <div class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </div>
+                                                        <div class="img">
+                                                            <img src="http://dummyimage.com/158x158.jpg" class="img-responsive">
+                                                        </div>
+                                                        <a href="javascript:void(0)" class="title text-info">Дисплей НТС Incredible S
+                                                            s710e/G11 в сборе оригинал</a>
+                                                        <div class="price-title">Цена</div>
+                                                        <div class="price-value">1 515 руб.</div>
+                                                        <div class="quantity-title">Количество</div>
+                                                        <div class="input-group quantity-input-group">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-minus">–</a></div>
+                                                            <input type="text" class="form-control quantity-control" value="3">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-plus">+</a></div>
+                                                        </div>
+                                                        <div class="total-title">Итог</div>
+                                                        <div class="total-value">4 545 руб.</div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </div>
+                                                        <div class="img">
+                                                            <img src="http://dummyimage.com/158x158.jpg" class="img-responsive">
+                                                        </div>
+                                                        <a href="javascript:void(0)" class="title text-info">Дисплей НТС Incredible S
+                                                            s710e/G11 в сборе оригинал</a>
+                                                        <div class="price-title">Цена</div>
+                                                        <div class="price-value">1 515 руб.</div>
+                                                        <div class="quantity-title">Количество</div>
+                                                        <div class="input-group quantity-input-group">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-minus">–</a></div>
+                                                            <input type="text" class="form-control quantity-control" value="3">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-plus">+</a></div>
+                                                        </div>
+                                                        <div class="total-title">Итог</div>
+                                                        <div class="total-value">4 545 руб.</div>
+                                                    </div>
+                                                    <div class="item">
+                                                        <div class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </div>
+                                                        <div class="img">
+                                                            <img src="http://dummyimage.com/158x158.jpg" class="img-responsive">
+                                                        </div>
+                                                        <a href="javascript:void(0)" class="title text-info">Дисплей НТС Incredible S
+                                                            s710e/G11 в сборе оригинал</a>
+                                                        <div class="price-title">Цена</div>
+                                                        <div class="price-value">1 515 руб.</div>
+                                                        <div class="quantity-title">Количество</div>
+                                                        <div class="input-group quantity-input-group">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-minus">–</a></div>
+                                                            <input type="text" class="form-control quantity-control" value="3">
+                                                            <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-transparent-primary-normal-border quantity-plus">+</a></div>
+                                                        </div>
+                                                        <div class="total-title">Итог</div>
+                                                        <div class="total-value">4 545 руб.</div>
+                                                    </div>
+                                                </div>
+                                                <table class="cart-positions table table-noborder hidden-xs">
+                                                    <thead>
+                                                    <tr>
+                                                        <th colspan="2" class="title">Товар</th>
+                                                        <th class="price">Цена</th>
+                                                        <th class="quantity">Кол-во</th>
+                                                        <th class="total">Итог</th>
+                                                        <th class="actions"></th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <img src="http://dummyimage.com/66x66.jpg">
+                                                        </td>
+                                                        <td class="title">
+                                                            <a href="javascript:void(0)" class="text-info">
+                                                                Дисплей HTC Incredible S s710e/G11 в сборе оригинал
+                                                            </a>
+                                                        </td>
+                                                        <td class="price">1&nbsp;515&nbsp;руб.</td>
+                                                        <td class="quantity">
+                                                            <div class="input-group quantity-input-group">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-minus">–</a></div>
+                                                                <input type="text" class="form-control quantity-control" value="3">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-plus">+</a></div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="total">4&nbsp;545&nbsp;руб.</td>
+                                                        <td class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <img src="http://dummyimage.com/66x66.jpg">
+                                                        </td>
+                                                        <td class="title">
+                                                            <a href="javascript:void(0)" class="text-info">
+                                                                Дисплей HTC Incredible S s710e/G11 в сборе оригинал
+                                                            </a>
+                                                        </td>
+                                                        <td class="price">1&nbsp;515&nbsp;руб.</td>
+                                                        <td class="quantity">
+                                                            <div class="input-group quantity-input-group">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-minus">–</a></div>
+                                                                <input type="text" class="form-control quantity-control" value="3">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-plus">+</a></div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="total">4&nbsp;545&nbsp;руб.</td>
+                                                        <td class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="img">
+                                                            <img src="http://dummyimage.com/66x66.jpg">
+                                                        </td>
+                                                        <td class="title">
+                                                            <a href="javascript:void(0)" class="text-info">
+                                                                Дисплей HTC Incredible S s710e/G11 в сборе оригинал
+                                                            </a>
+                                                        </td>
+                                                        <td class="price">1&nbsp;515&nbsp;руб.</td>
+                                                        <td class="quantity">
+                                                            <div class="input-group quantity-input-group">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-minus">–</a></div>
+                                                                <input type="text" class="form-control quantity-control" value="3">
+                                                                <div class="input-group-addon"><a href="javascript:void(0)" class="btn btn-xs btn-transparent-primary quantity-plus">+</a></div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="total">4&nbsp;545&nbsp;руб.</td>
+                                                        <td class="actions">
+                                                            <a href="javascript:void(0)" class="action-delete" title="Удалить"></a>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-md-4 col-lg-3">
+                                            <table class="cart-total table table-noborder">
+                                                <tr>
+                                                    <td>
+                                                        У вас в корзине<br>
+                                                        <small><strong>3 товара</strong></small><br>
+                                                        <span class="text-primary">Скидка 5%</span>
+                                                    </td>
+                                                    <td>
+                                                        <strong>8 685 руб.</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <small>Стоимость<br>доставки</small>
+                                                    </td>
+                                                    <td>
+                                                        <strong>1 000 руб.</strong>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <big>Общий итог</big><br>
+                                                        <span class="text-primary"><big><big><strong>9 685 руб.</strong></big></big></span>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12 col-md-8 col-lg-9">
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Вход на сайт или регистрация</h4>
+                                                </div>
+                                                <div class="row row-login-form">
+                                                    <div class="col-md-12 col-lg-5 col-left">
+                                                        <form method="POST">
+                                                            <div class="form-group">
+                                                                <input class="form-control" placeholder="Логин">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input class="form-control" placeholder="Пароль">
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xs-5">
+                                                                    <input type="submit" class="btn btn-primary" value="Войти">
+                                                                </div>
+                                                                <div class="col-xs-7 text-right">
+                                                                    <div><a href="javascript:void(0)" class="text-nowrap small">Восстановить пароль</a></div>
+                                                                    <div><a href="javascript:void(0)" class="small">Зарегистрироваться</a></div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                        <div class="or-block visible-lg">
+                                                            или
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-12 col-lg-7 col-right">
+                                                        <div class="social-title">Войти с помощью соцсетей</div>
+                                                        <div class="social-ways">
+                                                            <img src="/img/login-social.gif">
+                                                        </div>
+                                                        <div class="social-buy">
+                                                            <a href="javascript:void(0)" class="btn btn-primary">Купить без регистрации</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Способ доставки</h4>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="delivery" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Самовывоз</div>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="delivery" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Доставка курьером</div>
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <label>
+                                                        <input type="radio" name="delivery" class="radio-custom" checked><div class="radio-custom"></div><div class="radio-text text-halfbold"> Почта России</div>
+                                                    </label>
+                                                </div>
+                                                <div class="text-halfbold text-bit-smaller" style="padding: 0 0 0 25px;">
+                                                    Наложенным платежом Почты России. Срок доставки 7-20 дней. + Оплата 9% от суммы платежа взымает Почта России. Отправление по СНГ.
+                                                    <br>
+                                                    <img src="/img/icon_ruspost_small.png" style="margin: 15px 0 0 0;">
+                                                </div>
+                                            </div>
+
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Информация о покупателе</h4>
+                                                </div>
+                                                <div class="row row-buyer-info">
+                                                    <div class="col-xs-12 col-sm-5 col">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Фамилия">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Имя">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Отчество">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="input-group">
+                                                                <div class="input-group-addon" style="color: #333;">8</div>
+                                                                <input type="text" class="form-control" placeholder="Мобильный телефон">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-12 col-sm-5 col">
+                                                        <div class="form-group">
+                                                            <div class="select">
+                                                                <select><option>Страна</option></select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <div class="select">
+                                                                <select><option>Регион</option></select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Город">
+                                                        </div>
+                                                        <div class="form-group has-error has-feedback">
+                                                            <input type="text" class="form-control" placeholder="Адрес">
+                                                            <div class="form-control-feedback" aria-hidden="true"></div>
+                                                            <div class="form-text small">Заполните адрес</div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="Почтовый индекс">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Способ оплаты</h4>
+                                                </div>
+                                                <div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="payment" class="radio-custom" checked><div class="radio-custom"></div><div class="radio-text text-halfbold"> Банковские карты</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="payment" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Яндекс деньги</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="payment" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Наличными курьеру</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="payment" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Терминалы</div>
+                                                        </label>
+                                                    </div>
+                                                    <div class="radio">
+                                                        <label>
+                                                            <input type="radio" name="payment" class="radio-custom"><div class="radio-custom"></div><div class="radio-text text-halfbold"> Наложенный платеж</div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="borders-1">
+                                                <div class="borders-1-title">
+                                                    <h4 class="title">Комментарий к заказу</h4>
+                                                </div>
+                                                <div>
+                                                    <textarea class="form-control" rows="13">Оба приятеля вышли. Братья остались наедине и сперва только посматривали друг на друга.	Эта последняя фраза, видимо, не понравилась Базарову; от нее веяло философией, то есть романтизмом, ибо Базаров и философию называл романтизмом; но он не почел за нужное опровергать своего молодого ученика. Наступили лучшие дни в году — первые дни июня. Погода стояла прекрасная; правда, издали грозилась опять холера, но жители ...й губернии успели уже привыкнуть к ее посещениям. Базаров вставал очень рано и отправлялся версты за две, за три, не гулять — он прогулок без дела терпеть не мог, — а собирать травы, насекомых. Иногда он брал с собой Аркадия. На возвратном пути у них обыкновенно завязывался спор, и Аркадий обыкновенно оставался побежденным, хотя говорил больше своего товарища.</textarea>
+                                                </div>
+                                            </div>
+                                            <input type="submit" value="Оформить заказ" class="btn btn-primary btn-lg btn-block">
+
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">468</div>
+                    <div class="vsego-title">инструкций</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">34&nbsp;590</div>
+                    <div class="vsego-title">запчастей</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">1&nbsp;438</div>
+                    <div class="vsego-title">ответов</div>
+                </div>
+            </div>
+        </div>
+        <hr class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="bottom-menu row hidden-xs">
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">О нас</a>
+                            <a href="javascript:void(0)">Клиенту</a>
+                            <a href="javascript:void(0)">Скидки</a>
+                            <a href="javascript:void(0)">Новости</a>
+                            <a href="javascript:void(0)">Блог</a>
+                            <a href="javascript:void(0)">Контакты</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">Запчасти</a>
+                            <a href="javascript:void(0)">Аксессуары</a>
+                            <a href="javascript:void(0)">Инструкции по ремонту</a>
+                            <a href="javascript:void(0)">Вопросы</a>
+                            <a href="javascript:void(0)">Доставка и оплата</a>
+                            <a href="javascript:void(0)">Гарантия и возврат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <button class="btn btn-block btn-transparent">Обратная связь</button>
+                    <div class="mi-v-socsetyah">
+                        <div class="mi-v-socsetyah-title">
+                            Мы в соцсетях
+                        </div>
+                        <div class="mi-v-socsetyah-knopki">
+                            <a href="javascript:void(0)" class="knopka feisbuk"></a>
+                            <a href="javascript:void(0)" class="knopka vkont"></a>
+                            <a href="javascript:void(0)" class="knopka tviter"></a>
+                            <a href="javascript:void(0)" class="knopka utub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <div style="margin: 0 0 27px 0;" class="hidden-xs">
+                        <form method="POST">
+                            <div class="input-group">
+                                <div class="input-site-search-container">
+                                    <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                    <div class="dropdown input-site-search-category small">
+                                        <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                            <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-info" value="Найти">
+                            </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sposobi-oplati hidden-xs">
+                        <div class="sposobi-oplati-title">
+                            Способы оплаты
+                        </div>
+                        <div class="sposobi-oplati-knopki">
+                            <a href="javascript:void(0)" class="knopka viza"></a>
+                            <a href="javascript:void(0)" class="knopka mastercard"></a>
+                            <a href="javascript:void(0)" class="knopka qiwivalet"></a>
+                            <a href="javascript:void(0)" class="knopka yandeksdengi"></a>
+                            <a href="javascript:void(0)" class="knopka vebmani"></a>
+                            <a href="javascript:void(0)" class="knopka alfabank"></a>
+                        </div>
+                    </div>
+                    <div class="razrabotka-saita">
+                        Разработка сайта &mdash; <strong>агентство Creative</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-padding"></div>
+    </footer>
+
+</body>
+</html>

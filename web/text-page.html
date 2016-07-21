@@ -1,0 +1,991 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>VREMONTE24</title>
+    <meta name="description" content="Ремонт цифровой техники">
+    <meta name="author" content="crtweb.ru">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/lib/fancybox/source/jquery.fancybox.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/lib/owl-carousel/owl.carousel.css">
+
+    <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="/lib/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+
+    <!--[if IE]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="visible-xs xs-top">
+        <div class="container-fluid">
+            <div class="row ">
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-menu-btn">
+                    <div class="xs-top-icon xs-menu-icon"></div>
+                </a>
+                <div class="col-xs-4 xs-col xs-logo-notbtn">
+                    <div class="xs-top-icon xs-site-logo"></div>
+                </div>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-search-btn">
+                    <div class="xs-top-icon xs-search-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-login-btn">
+                    <div class="xs-top-icon xs-login-icon"></div>
+                </a>
+                <a href="javascript:void(0)" class="col-xs-2 xs-col xs-btn xs-cart-btn">
+                    <div class="xs-top-icon xs-cart-icon"></div>
+                    <div class="xs-cart-count">3</div>
+                </a>
+            </div>
+        </div>
+        <div class="xs-menu-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="first-menu">
+                            <li><a href="/models.html">Запчасти</a></li>
+                            <li><a href="/catalog.html">Аксессуары</a></li>
+                            <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                            <li><a href="/blog.html">Блог</a></li>
+                            <li><a href="/qa.html">Вопросы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <ul class="second-menu-left second-menu">
+                            <li><a href="/about.html">О нас</a></li>
+                            <li><a href="/for_client.html">Клиенту</a></li>
+                            <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                            <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <ul class="second-menu-right second-menu">
+                            <li><a href="/specials.html">Скидки</a></li>
+                            <li><a href="/news.html">Новости</a></li>
+                            <li><a href="/contacts.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 20px 0 0;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6" style="padding: 0; margin-right: -4px;">
+                        <nav class="navbar navbar-default third-menu-left third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2 navbar-default-link-karta">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-xs-6" style="padding: 0;">
+                        <nav class="navbar navbar-default third-menu-right third-menu">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown navbar-link-style-2">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-nowrap" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin: 0">
+        </div>
+        <div class="xs-search-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control input-sm" placeholder="Поиск по сайту">
+                                <span class="input-group-btn">
+                                    <input type="submit" class="btn btn-sm btn-primary" value="Найти">
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xs-cart-block xs-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="cart-title">В корзине <span class="text-red">3</span> товара</div>
+                        <table class="cart-positions">
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="td-img">
+                                    <div class="img">
+                                        <img src="http://dummyimage.com/40x40.jpg">
+                                    </div>
+                                </td>
+                                <td class="td-content">
+                                    <div>
+                                        <a href="javascript:void(0)" class="title">Дисплей НТС Incredible S s71 НТС Incredible S s71</a>
+                                    </div>
+                                    <div>
+                                        <span class="quantity">1 шт.</span>
+                                        <span class="price">650 руб.</span>
+                                    </div>
+                                </td>
+                                <td class="td-actions">
+                                    <a href="javascript:void(0)" class="action-delete"></a>
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="itog">
+                            Итог: <span class="text-primary">2525 руб.</span>
+                        </div>
+                        <div class="oformit">
+                            <a href="/cart.html" class="btn btn-primary btn-block">
+                                Оформить
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="dropdown navbar-link-style-1 navbar-default-link-karta">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Красноярск <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">Тобольск</a></li>
+                        <li><a href="javascript:void(0)">Екатеринбург</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown navbar-link-style-1">
+                    <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазины <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="javascript:void(0)">на ул. Пермякова</a></li>
+                        <li><a href="javascript:void(0)">на ул. Геологоразведчиков</a></li>
+                    </ul>
+                </li>
+                <li><a href="/about.html">О нас</a></li>
+                <li><a href="/for_client.html">Клиенту</a></li>
+                <li><a href="/payment_delivery.html">Доставка и оплата</a></li>
+                <li><a href="/warranty.html">Гарантия и возврат</a></li>
+                <li><a href="/specials.html">Скидки</a></li>
+                <li><a href="/news.html">Новости</a></li>
+                <li><a href="/contacts.html">Контакты</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="navbar-link-style-1 navbar-default-link-vhod"><a href="javascript:void(0)">Вход</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="container hidden-xs">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3">
+                <div class="site-logo">
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-5">
+                <div style="margin: 5px 0 0  0;">
+                    <form method="POST">
+                        <div class="input-group">
+                            <div class="input-site-search-container">
+                                <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                <div class="dropdown input-site-search-category small">
+                                    <a href="javascript:void(0)" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                        <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <span class="input-group-btn">
+                                    <input type="submit" class="btn btn-primary" value="Найти">
+                                </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right telephone">
+                    <span class="text-nowrap country-city">+7 3452</span>
+                    <span class="text-nowrap local">12-34-56</span>
+                </div>
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="perezvonite-mne dotted-gray">
+                        Перезвоните мне
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2">
+                <div class="text-right">
+                    <a href="javascript:void(0)" class="mini-korzina dotted-gray">
+                        Корзина
+                    </a>
+                </div>
+                <div class="text-right mini-korzina-value">
+                    В корзине <span class="text-red" style="font-weight: bold;">3</span> товара
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top-menu hidden-xs">
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="top-menu-links">
+                        <li><a href="/models.html">Запчасти</a></li>
+                        <li><a href="/catalog.html">Аксессуары</a></li>
+                        <li><a href="/text-page.html">Инструкции по ремонту</a></li>
+                        <li><a href="/blog.html">Блог</a></li>
+                        <li><a href="/qa.html">Вопросы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="breadcrumb">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="javascript:void(0)">Инструкции по ремонту</a></li>
+                    <li><a href="javascript:void(0)">Статья по ремонту</a></li>
+                </ul>
+                <article>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h3>Заголовок статьи по ремонту устройств</h3>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-4 col-md-3">
+                                    <div class="borders-1 filter">
+                                        <form method="POST">
+                                            <h4><strong>Фильтр</strong></h4>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="param">
+                                                <div class="select">
+                                                    <select>
+                                                        <option>Параметр</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="actions">
+                                                <div class="row">
+                                                    <div class="col-xs-6">
+                                                        <input type="submit" class="btn btn-transparent-primary-normal-border btn-block" value="Сбросить">
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <input type="submit" class="btn btn-primary btn-block" value="Найти">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="borders-1 other-instructions">
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/220x209.jpg" class="img-responsive">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Sony Xperia Z5 Compact
+                                            </a>
+                                            <div class="stats">
+                                                <div class="vote-points">
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                    <div class="suffix">3.7</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-8 col-md-9">
+                                    <div class="instruction">
+                                        <div class="stats">
+                                            <div class="vote-points">
+                                                <div class="prefix">Оценка</div>
+                                                <div class="stars">
+                                                    <div class="active"></div>
+                                                    <div class="active"></div>
+                                                    <div class="active"></div>
+                                                    <div></div>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                            <div class="views">
+                                                1 430
+                                            </div>
+                                        </div>
+                                        <p>Голландский ресурс GSM Helpdesk поделился новыми подробностями о готовящемся к выпуску смартфоне Samsung Galaxy Note 6, который пока не был представлен официально. По данным источника, производитель сейчас экспериментирует с двумя версиями будущего флагмана — с обычным плоским дисплеем и с изогнутым, как в моделях серии Edge.</p>
+                                        <img src="http://dummyimage.com/805x424.jpg" class="img-responsive" style="margin: 35px 0 30px">
+                                        <p>Обе версии используют 5,8-дюймовый экран с разрешением Quad HD (1440 x 2560 пикселей). Таким образом, компания тестирует наследников для Samsung Galaxy Note 5 и Samsung Galaxy S6 edge+, но только один из них доберется до полок магазинов.</p>
+                                        <blockquote>
+                                            Еще одна интересная подробность стала известна относительно емкости аккумулятора — устройство получит внушительную батарею на 4000 мАч.
+                                        </blockquote>
+                                        <p>Кроме того, смартфон обзаведется 6 ГБ оперативной и 32 ГБ встроенной флеш-памяти с возможностью использовать карточки памяти формата microSD. Основная камера аппратно не изменится, но ПО будет обновлено. Отмечается, что тестируемые прототипы работают на основе процессоров Exynos 8890 и Snapdragon 823, работают под управлением операционной системы Android N.</p>
+                                        <img src="http://dummyimage.com/805x424.jpg" class="img-responsive" style="margin: 35px 0 30px">
+                                        <p>Отметим, что дебют Samsung Galaxy Note 6 может состояться уже в июле 2016 года. Ранее также сообщалось о защите от воды и пыли по стандарту IP68, впервые для серии Galaxy Note.</p>
+                                        <h3>Видеоинструкция</h3>
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe width="560" height="315" style="max-width:560px;max-height:315px;" class="embed-responsive-item" src="https://www.youtube.com/embed/T4X1ZrhRqqk" frameborder="0" allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <hr>
+                                    <h3>Запчасти, подходящие для ремонта</h3>
+                                    <div class="products-repair-slider products-one-row">
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock out">
+                                                на заказ
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock out">
+                                                на заказ
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock out">
+                                                на заказ
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="img">
+                                                <img src="http://dummyimage.com/160x160.jpg">
+                                            </div>
+                                            <a href="javascript:void(0)" class="title text-info">
+                                                Аккумулятор Apple iPhone 5S оригинал
+                                            </a>
+                                            <div class="price">
+                                                820 руб.
+                                            </div>
+                                            <div class="stock in">
+                                                есть в наличии
+                                            </div>
+                                            <div class="buy">
+                                                <a href="javascript:void(0)" class="btn btn-transparent-primary">В корзину</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin: 50px 0;">
+                                        <img src="http://dummyimage.com/1080x200.jpg" class="img-responsive">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-8">
+                                    <h3>Похожие инструкции</h3>
+                                    <div class="grid">
+                                        <div class="row">
+                                            <div class="col-xs-12 col-sm-6">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/344x192.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/344x192.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix hidden-xs"></div>
+                                            <div class="col-xs-6 col-sm-3">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/160x160.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-3">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/160x160.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix visible-xs"></div>
+                                            <div class="col-xs-6 col-sm-3">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/160x160.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-6 col-sm-3">
+                                                <div class="item">
+                                                    <div class="img">
+                                                        <img src="http://dummyimage.com/160x160.jpg" class="img-responsive">
+                                                    </div>
+                                                    <a href="javascript:void(0)" class="title text-info">
+                                                        Ремонт вибрации на смартфоне Nokia X6-00
+                                                    </a>
+                                                    <div class="stats">
+                                                        <div class="views">13 420</div>
+                                                        <div class="comments">241</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="clearfix hidden-xs"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <h3>Вопросы по устройству</h3>
+                                    <div class="grid-white scrollbar" style="height: 520px;">
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="title">
+                                                Замена тачскрина
+                                            </div>
+                                            <div class="text">
+                                                Разбился тачскрин на $amsung g355h сколько будет стоить ремонт. Разбился тачскрин на $amsung g355h сколько будет ... стоить ремонт
+                                            </div>
+                                            <div class="stats clearfix">
+                                                <div class="text"><i>Samsung</i></div>
+                                                <div class="views">452</div>
+                                                <div class="vote-points">
+                                                    <div class="prefix">Оценка</div>
+                                                    <div class="stars">
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div class="active"></div>
+                                                        <div></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">468</div>
+                    <div class="vsego-title">инструкций</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">34&nbsp;590</div>
+                    <div class="vsego-title">запчастей</div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="vsego-value">1&nbsp;438</div>
+                    <div class="vsego-title">ответов</div>
+                </div>
+            </div>
+        </div>
+        <hr class="hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="bottom-menu row hidden-xs">
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">О нас</a>
+                            <a href="javascript:void(0)">Клиенту</a>
+                            <a href="javascript:void(0)">Скидки</a>
+                            <a href="javascript:void(0)">Новости</a>
+                            <a href="javascript:void(0)">Блог</a>
+                            <a href="javascript:void(0)">Контакты</a>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                            <a href="javascript:void(0)">Запчасти</a>
+                            <a href="javascript:void(0)">Аксессуары</a>
+                            <a href="javascript:void(0)">Инструкции по ремонту</a>
+                            <a href="javascript:void(0)">Вопросы</a>
+                            <a href="javascript:void(0)">Доставка и оплата</a>
+                            <a href="javascript:void(0)">Гарантия и возврат</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-2">
+                    <button class="btn btn-block btn-transparent">Обратная связь</button>
+                    <div class="mi-v-socsetyah">
+                        <div class="mi-v-socsetyah-title">
+                            Мы в соцсетях
+                        </div>
+                        <div class="mi-v-socsetyah-knopki">
+                            <a href="javascript:void(0)" class="knopka feisbuk"></a>
+                            <a href="javascript:void(0)" class="knopka vkont"></a>
+                            <a href="javascript:void(0)" class="knopka tviter"></a>
+                            <a href="javascript:void(0)" class="knopka utub"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+
+                    <div style="margin: 0 0 27px 0;" class="hidden-xs">
+                        <form method="POST">
+                            <div class="input-group">
+                                <div class="input-site-search-container">
+                                    <input type="text" class="form-control" placeholder="Поиск по сайту">
+                                    <div class="dropdown input-site-search-category small">
+                                        <a href="javascript:void(0)" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Категория <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="javascript:void(0)">Аккумуляторы</a></li>
+                                            <li><a href="javascript:void(0)">Дисплеи и Тачскрины</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            <span class="input-group-btn">
+                                <input type="submit" class="btn btn-info" value="Найти">
+                            </span>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="sposobi-oplati hidden-xs">
+                        <div class="sposobi-oplati-title">
+                            Способы оплаты
+                        </div>
+                        <div class="sposobi-oplati-knopki">
+                            <a href="javascript:void(0)" class="knopka viza"></a>
+                            <a href="javascript:void(0)" class="knopka mastercard"></a>
+                            <a href="javascript:void(0)" class="knopka qiwivalet"></a>
+                            <a href="javascript:void(0)" class="knopka yandeksdengi"></a>
+                            <a href="javascript:void(0)" class="knopka vebmani"></a>
+                            <a href="javascript:void(0)" class="knopka alfabank"></a>
+                        </div>
+                    </div>
+                    <div class="razrabotka-saita">
+                        Разработка сайта &mdash; <strong>агентство Creative</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-padding"></div>
+    </footer>
+
+</body>
+</html>
